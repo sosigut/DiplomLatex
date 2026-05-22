@@ -1,0 +1,1534 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.5)  21 MAY 2026 13:58
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ТитульныйЛист.tex
+(./ТитульныйЛист.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-03-20>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{center}
+                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
+[] 
+ []
+
+! Undefined control sequence.
+l.3 \large
+          \textbf{Минобрнауки России}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no М (U+041C) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no и (U+0438) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no н (U+043D) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no о (U+043E) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no б (U+0431) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no р (U+0440) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no н (U+043D) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no а (U+0430) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no у (U+0443) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no к (U+043A) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no и (U+0438) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Р (U+0420) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no о (U+043E) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no с (U+0441) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no с (U+0441) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no и (U+0438) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no и (U+0438) in font [lmroman10-bold]:mapping=tex-
+text;!
+
+Overfull \hbox (30.8pt too wide) in paragraph at lines 3--4
+ \TU/lmr/bx/n/10 Минобрнауки 
+ []
+
+
+Overfull \hbox (16.8pt too wide) in paragraph at lines 3--4
+ \TU/lmr/bx/n/10 России 
+ []
+
+! Undefined control sequence.
+l.5 \large
+          \textbf{Юго-Западный государственный университет}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Ю (U+042E) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no г (U+0433) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no о (U+043E) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no З (U+0417) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no а (U+0430) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no п (U+043F) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no а (U+0430) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no д (U+0434) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no н (U+043D) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ы (U+044B) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no й (U+0439) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no г (U+0433) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no о (U+043E) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no с (U+0441) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no у (U+0443) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no д (U+0434) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no а (U+0430) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no р (U+0440) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no с (U+0441) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no т (U+0442) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no в (U+0432) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no е (U+0435) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no н (U+043D) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no н (U+043D) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ы (U+044B) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no й (U+0439) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no у (U+0443) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no н (U+043D) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no и (U+0438) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no в (U+0432) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no е (U+0435) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no р (U+0440) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no с (U+0441) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no и (U+0438) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no т (U+0442) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no е (U+0435) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no т (U+0442) in font [lmroman10-bold]:mapping=tex-
+text;!
+
+Overfull \hbox (12.23pt too wide) in paragraph at lines 5--6
+ []\TU/lmr/bx/n/10 Юго- 
+ []
+
+
+Overfull \hbox (22.4pt too wide) in paragraph at lines 5--6
+ \TU/lmr/bx/n/10 Западный 
+ []
+
+
+Overfull \hbox (42.0pt too wide) in paragraph at lines 5--6
+ \TU/lmr/bx/n/10 государственный 
+ []
+
+
+Overfull \hbox (30.8pt too wide) in paragraph at lines 5--6
+ \TU/lmr/bx/n/10 университет 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \normalsize
+               {Кафедра программной инженерии}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no К ("41A) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no ф ("444) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no д ("434) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no г ("433) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no м ("43C) in font nullfont!
+Missing character: There is no м ("43C) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no й ("439) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no ж ("436) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+! Undefined control sequence.
+l.9 \large
+          \textbf{ВЫПУСКНАЯ КВАЛИФИКАЦИОННАЯ РАБОТА}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no В (U+0412) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Ы (U+042B) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no П (U+041F) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no У (U+0423) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no С (U+0421) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no К (U+041A) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Н (U+041D) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no А (U+0410) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Я (U+042F) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no К (U+041A) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no В (U+0412) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no А (U+0410) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Л (U+041B) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no И (U+0418) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Ф (U+0424) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no И (U+0418) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no К (U+041A) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no А (U+0410) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Ц (U+0426) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no И (U+0418) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no О (U+041E) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Н (U+041D) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Н (U+041D) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no А (U+0410) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Я (U+042F) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Р (U+0420) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no А (U+0410) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Б (U+0411) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no О (U+041E) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Т (U+0422) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no А (U+0410) in font [lmroman10-bold]:mapping=tex-
+text;!
+
+Overfull \hbox (25.2pt too wide) in paragraph at lines 9--9
+ []\TU/lmr/bx/n/10 ВЫПУСКНАЯ 
+ []
+
+
+Overfull \hbox (44.8pt too wide) in paragraph at lines 9--9
+ \TU/lmr/bx/n/10 КВАЛИФИКАЦИОННАЯ 
+ []
+
+
+Overfull \hbox (16.8pt too wide) in paragraph at lines 9--9
+ \TU/lmr/bx/n/10 РАБОТА 
+ []
+
+! Undefined control sequence.
+<recently read> \large 
+                       
+l.10 \large
+           \textbf{ПО ПРОГРАММЕ БАКАЛАВРИАТА}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no П (U+041F) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no О (U+041E) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no П (U+041F) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Р (U+0420) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no О (U+041E) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Г (U+0413) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Р (U+0420) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no А (U+0410) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no М (U+041C) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no М (U+041C) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Е (U+0415) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Б (U+0411) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no А (U+0410) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no К (U+041A) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no А (U+0410) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Л (U+041B) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no А (U+0410) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no В (U+0412) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Р (U+0420) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no И (U+0418) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no А (U+0410) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no Т (U+0422) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no А (U+0410) in font [lmroman10-bold]:mapping=tex-
+text;!
+
+Overfull \hbox (5.6pt too wide) in paragraph at lines 10--10
+ []\TU/lmr/bx/n/10 ПО 
+ []
+
+
+Overfull \hbox (25.2pt too wide) in paragraph at lines 10--10
+ \TU/lmr/bx/n/10 ПРОГРАММЕ 
+ []
+
+
+Overfull \hbox (33.6pt too wide) in paragraph at lines 10--10
+ \TU/lmr/bx/n/10 БАКАЛАВРИАТА 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \normalsize
+                \fillcenter{09.03.04 Программная инженерия}\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.12 \normalsize\fillcenter
+                           {09.03.04 Программная инженерия}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 9 ("39) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 3 ("33) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 4 ("34) in font nullfont!
+Missing character: There is no П ("41F) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no г ("433) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no м ("43C) in font nullfont!
+Missing character: There is no м ("43C) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no я ("44F) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no ж ("436) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no я ("44F) in font nullfont!
+! Undefined control sequence.
+<recently read> \footnotesize 
+                              
+l.14 \footnotesize
+                  {(код, наименование ОПОП ВО: направление подготовки, напра...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no к ("43A) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no д ("434) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no м ("43C) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no в ("432) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no О ("41E) in font nullfont!
+Missing character: There is no П ("41F) in font nullfont!
+Missing character: There is no О ("41E) in font nullfont!
+Missing character: There is no П ("41F) in font nullfont!
+Missing character: There is no В ("412) in font nullfont!
+Missing character: There is no О ("41E) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no в ("432) in font nullfont!
+Missing character: There is no л ("43B) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no д ("434) in font nullfont!
+Missing character: There is no г ("433) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no т ("442) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no в ("432) in font nullfont!
+Missing character: There is no к ("43A) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no в ("432) in font nullfont!
+Missing character: There is no л ("43B) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no с ("441) in font nullfont!
+Missing character: There is no т ("442) in font nullfont!
+Missing character: There is no ь ("44C) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no ф ("444) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no л ("43B) in font nullfont!
+Missing character: There is no ь ("44C) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \normalsize
+                \fillcenter{«Разработка программноfddddddddddddddсистем»}\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.16 \normalsize\fillcenter
+                           {«Разработка программноfddddddddddddddсистем»}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no « ("AB) in font nullfont!
+Missing character: There is no Р ("420) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no з ("437) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no б ("431) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no т ("442) in font nullfont!
+Missing character: There is no к ("43A) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no г ("433) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no м ("43C) in font nullfont!
+Missing character: There is no м ("43C) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no с ("441) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no с ("441) in font nullfont!
+Missing character: There is no т ("442) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no м ("43C) in font nullfont!
+Missing character: There is no » ("BB) in font nullfont!
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \normalsize
+                \fillcenter\Тема\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.18 \normalsize\fillcenter
+                           \Тема\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.18 \normalsize\fillcenter\Тема
+                                \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \normalsize\fillcenter\Тема\\
+                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+<recently read> \fillcenter 
+                            
+l.19 \fillcenter
+                \ТемаВтораяСтрока\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.19 \fillcenter\ТемаВтораяСтрока
+                                 \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \fillcenter\ТемаВтораяСтрока\\
+                                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+<recently read> \footnotesize 
+                              
+l.21 \footnotesize
+                  {(название темы)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no з ("437) in font nullfont!
+Missing character: There is no в ("432) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no т ("442) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no м ("43C) in font nullfont!
+Missing character: There is no ы ("44B) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \normalsize
+                \fillcenter{Дипломный проект}\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.23 \normalsize\fillcenter
+                           {Дипломный проект}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Д ("414) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no л ("43B) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no м ("43C) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no ы ("44B) in font nullfont!
+Missing character: There is no й ("439) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no к ("43A) in font nullfont!
+Missing character: There is no т ("442) in font nullfont!
+! Undefined control sequence.
+<recently read> \footnotesize 
+                              
+l.24 \footnotesize
+                  {(вид ВКР: дипломная работа или дипломный проект)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no в ("432) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no д ("434) in font nullfont!
+Missing character: There is no В ("412) in font nullfont!
+Missing character: There is no К ("41A) in font nullfont!
+Missing character: There is no Р ("420) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no д ("434) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no л ("43B) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no м ("43C) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no я ("44F) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no б ("431) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no т ("442) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no л ("43B) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no д ("434) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no л ("43B) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no м ("43C) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no ы ("44B) in font nullfont!
+Missing character: There is no й ("439) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no к ("43A) in font nullfont!
+Missing character: There is no т ("442) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 27.
+
+! LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \begin{tabular}{p{5.8cm}C{4.8cm}C{4.8cm}}
+                                              
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \begin{tabular}{p{5.8cm}C{4.8cm}C{4.8cm}}
+                                              
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \begin{tabular}{p{5.8cm}C{4.8cm}C{4.8cm}}
+                                              
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \begin{tabular}{p{5.8cm}C{4.8cm}C{4.8cm}}
+                                              
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no А ("410) in font nullfont!
+Missing character: There is no в ("432) in font nullfont!
+Missing character: There is no т ("442) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no В ("412) in font nullfont!
+Missing character: There is no К ("41A) in font nullfont!
+Missing character: There is no Р ("420) in font nullfont!
+! Undefined control sequence.
+l.28 Автор ВКР & \lhrulefill
+                            {\fill} & \fillcenter\Автор\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.28 Автор ВКР & \lhrulefill{\fill}
+                                    & \fillcenter\Автор\\
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.28 Автор ВКР & \lhrulefill{\fill}
+                                    & \fillcenter\Автор\\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.28 Автор ВКР & \lhrulefill{\fill} & \fillcenter
+                                                 \Автор\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.28 ...Р & \lhrulefill{\fill} & \fillcenter\Автор
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \setarstrut 
+                            
+l.29 \setarstrut
+                {\footnotesize}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.29 \setarstrut{\footnotesize
+                              }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.30 & \footnotesize
+                    {(подпись, дата)} & \footnotesize{(инициалы, фамилия)}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no д ("434) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no с ("441) in font nullfont!
+Missing character: There is no ь ("44C) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no д ("434) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no т ("442) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+! Undefined control sequence.
+l.30 ...tnotesize{(подпись, дата)} & \footnotesize
+                                                  {(инициалы, фамилия)}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no ц ("446) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no л ("43B) in font nullfont!
+Missing character: There is no ы ("44B) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no ф ("444) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no м ("43C) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no л ("43B) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no я ("44F) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+! Undefined control sequence.
+<recently read> \restorearstrut 
+                                
+l.31 \restorearstrut
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Г ("413) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no у ("443) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+! Undefined control sequence.
+<argument> \hspace {0.5cm}\Группа 
+                                  \hspace {0.5cm}
+l.32 ...line{\hspace{0.5cm}\Группа \hspace{0.5cm}}
+                                                   & &\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Р ("420) in font nullfont!
+Missing character: There is no у ("443) in font nullfont!
+Missing character: There is no к ("43A) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no в ("432) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no д ("434) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no т ("442) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no л ("43B) in font nullfont!
+Missing character: There is no ь ("44C) in font nullfont!
+Missing character: There is no В ("412) in font nullfont!
+Missing character: There is no К ("41A) in font nullfont!
+Missing character: There is no Р ("420) in font nullfont!
+! Undefined control sequence.
+l.34 Руководитель ВКР & \lhrulefill
+                                   {\fill} & \fillcenter\Руководитель\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.34 Руководитель ВКР & \lhrulefill{\fill}
+                                           & \fillcenter\Руководитель\\
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.34 Руководитель ВКР & \lhrulefill{\fill}
+                                           & \fillcenter\Руководитель\\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.34 ...ель ВКР & \lhrulefill{\fill} & \fillcenter
+                                                  \Руководитель\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.34 ...rulefill{\fill} & \fillcenter\Руководитель
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \setarstrut 
+                            
+l.35 \setarstrut
+                {\footnotesize}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.35 \setarstrut{\footnotesize
+                              }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.36 & \footnotesize
+                    {(подпись, дата)} & \footnotesize{(инициалы, фамилия)}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no д ("434) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no с ("441) in font nullfont!
+Missing character: There is no ь ("44C) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no д ("434) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no т ("442) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+! Undefined control sequence.
+l.36 ...tnotesize{(подпись, дата)} & \footnotesize
+                                                  {(инициалы, фамилия)}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no ц ("446) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no л ("43B) in font nullfont!
+Missing character: There is no ы ("44B) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no ф ("444) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no м ("43C) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no л ("43B) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no я ("44F) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+! Undefined control sequence.
+<recently read> \restorearstrut 
+                                
+l.37 \restorearstrut
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Н ("41D) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no м ("43C) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no к ("43A) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no т ("442) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no л ("43B) in font nullfont!
+Missing character: There is no ь ("44C) in font nullfont!
+! Undefined control sequence.
+l.38 Нормоконтроль & \lhrulefill
+                                {\fill} & \fillcenter\Нормоконтроль\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.38 Нормоконтроль & \lhrulefill{\fill}
+                                        & \fillcenter\Нормоконтроль\\
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.38 Нормоконтроль & \lhrulefill{\fill}
+                                        & \fillcenter\Нормоконтроль\\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.38 ...онтроль & \lhrulefill{\fill} & \fillcenter
+                                                  \Нормоконтроль\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.38 ...ulefill{\fill} & \fillcenter\Нормоконтроль
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \setarstrut 
+                            
+l.39 \setarstrut
+                {\footnotesize}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.39 \setarstrut{\footnotesize
+                              }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.40 & \footnotesize
+                    {(подпись, дата)} & \footnotesize{(инициалы, фамилия)}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no д ("434) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no с ("441) in font nullfont!
+Missing character: There is no ь ("44C) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no д ("434) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no т ("442) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+! Undefined control sequence.
+l.40 ...tnotesize{(подпись, дата)} & \footnotesize
+                                                  {(инициалы, фамилия)}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no ц ("446) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no л ("43B) in font nullfont!
+Missing character: There is no ы ("44B) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no ф ("444) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no м ("43C) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no л ("43B) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no я ("44F) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+! Undefined control sequence.
+<recently read> \restorearstrut 
+                                
+l.41 \restorearstrut
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \begin{tabular}{p{5.8cm}C{4.8cm}C{4.8cm}}
+                                              
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \begin{tabular}{p{5.8cm}C{4.8cm}C{4.8cm}}
+                                              
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \begin{tabular}{p{5.8cm}C{4.8cm}C{4.8cm}}
+                                              
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \begin{tabular}{p{5.8cm}C{4.8cm}C{4.8cm}}
+                                              
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no В ("412) in font nullfont!
+Missing character: There is no К ("41A) in font nullfont!
+Missing character: There is no Р ("420) in font nullfont!
+Missing character: There is no д ("434) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no у ("443) in font nullfont!
+Missing character: There is no щ ("449) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no к ("43A) in font nullfont!
+Missing character: There is no з ("437) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no щ ("449) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no т ("442) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no З ("417) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no в ("432) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no д ("434) in font nullfont!
+Missing character: There is no у ("443) in font nullfont!
+Missing character: There is no ю ("44E) in font nullfont!
+Missing character: There is no щ ("449) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no й ("439) in font nullfont!
+Missing character: There is no к ("43A) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no ф ("444) in font nullfont!
+Missing character: There is no е ("435) in font nullfont!
+Missing character: There is no д ("434) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no й ("439) in font nullfont!
+! Undefined control sequence.
+l.45 Заведующий кафедрой & \lhrulefill
+                                      {\fill} & \fillcenter\ЗавКаф\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.45 Заведующий кафедрой & \lhrulefill{\fill}
+                                              & \fillcenter\ЗавКаф\\
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.45 Заведующий кафедрой & \lhrulefill{\fill}
+                                              & \fillcenter\ЗавКаф\\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.45 ...афедрой & \lhrulefill{\fill} & \fillcenter
+                                                  \ЗавКаф\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.45 ... & \lhrulefill{\fill} & \fillcenter\ЗавКаф
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \setarstrut 
+                            
+l.46 \setarstrut
+                {\footnotesize}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.46 \setarstrut{\footnotesize
+                              }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.47 & \footnotesize
+                    {(подпись, дата)} & \footnotesize{(инициалы, фамилия)}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no о ("43E) in font nullfont!
+Missing character: There is no д ("434) in font nullfont!
+Missing character: There is no п ("43F) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no с ("441) in font nullfont!
+Missing character: There is no ь ("44C) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no д ("434) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no т ("442) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+! Undefined control sequence.
+l.47 ...tnotesize{(подпись, дата)} & \footnotesize
+                                                  {(инициалы, фамилия)}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no н ("43D) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no ц ("446) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no л ("43B) in font nullfont!
+Missing character: There is no ы ("44B) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no ф ("444) in font nullfont!
+Missing character: There is no а ("430) in font nullfont!
+Missing character: There is no м ("43C) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no л ("43B) in font nullfont!
+Missing character: There is no и ("438) in font nullfont!
+Missing character: There is no я ("44F) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+! Undefined control sequence.
+<recently read> \restorearstrut 
+                                
+l.48 \restorearstrut
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (165.0261pt too wide) in paragraph at lines 27--50
+[]
+ []
+
+
+Overfull \hbox (165.0261pt too wide) in paragraph at lines 27--50
+[] 
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 51--51
+[] 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 \normalsize
+                {Курск \the\year{} г.}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no К ("41A) in font nullfont!
+Missing character: There is no у ("443) in font nullfont!
+Missing character: There is no р ("440) in font nullfont!
+Missing character: There is no с ("441) in font nullfont!
+Missing character: There is no к ("43A) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 6 ("36) in font nullfont!
+Missing character: There is no г ("433) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+)
+! Emergency stop.
+<*> ТитульныйЛист.tex
+                     
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 33 strings out of 467992
+ 601 string characters out of 5433178
+ 430606 words of memory out of 5000000
+ 29032 multiletter control sequences out of 15000+600000
+ 627729 words of font info for 41 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 20i,11n,21p,145b,142s stack positions out of 10000i,1000n,20000p,200000b,200000s
+No pages of output.

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.5)  13 MAY 2026 17:44
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.5)  22 MAY 2026 23:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -557,30 +557,30 @@ File: lstlang1.sty 2025/11/14 1.11b listings language file
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 )) (./main.aux
 Package babel Info: 'russian' activates 'russian' shorthands.
-(babel)             Reported on input line 12.
+(babel)             Reported on input line 8.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -588,66 +588,66 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 30.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 30.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 30.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 30.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 30.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 30.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 30.
-LaTeX Font Info:    Redeclaring math accent \check on input line 30.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 30.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 30.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 30.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 30.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 30.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 31.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 31.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 31.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 31.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 31.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 31.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 31.
+LaTeX Font Info:    Redeclaring math accent \check on input line 31.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 31.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 31.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 31.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 31.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 30.
+(Font)              `operators' in the math version `normal' on input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 3
-0.
+1.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 30.
+(Font)              `operators' in the math version `bold' on input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-30.
+31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 30.
+input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 30.
+ 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-30.
+31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 30.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/Verdana(0)/m/n on input line 30.
+(Font)                  OT1/cmtt/m/n --> TU/Verdana(0)/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
-input line 30.
+input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
-e 30.
+e 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 30.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/Verdana(0)/b/n on input line 30.
-LaTeX Info: Redefining \th on input line 30.
-Package hyperref Info: Link coloring OFF on input line 30.
+(Font)                  OT1/cmtt/m/n --> TU/Verdana(0)/b/n on input line 31.
+LaTeX Info: Redefining \th on input line 31.
+Package hyperref Info: Link coloring OFF on input line 31.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
@@ -658,19 +658,101 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count332
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 32.
+(Font)              <14.4> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 32.
- [1] (./main.toc [2] [3])
-\tf@toc=\write4
-\openout4 = `main.toc'.
+(Font)              <7> on input line 33.
+
+Overfull \hbox (4.70218pt too wide) in paragraph at lines 33--33
+[] 
+ []
+
+
+Overfull \hbox (4.70218pt too wide) in paragraph at lines 33--33
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+
+ []
+
+[1] (./ЛистЗадания.tex
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[]\TU/TimesNewRoman(0)/m/n/14.4 Разработать концептуальную модель информационно
+-
+ []
+
+[2] (./main.lop)
+\tf@lop=\write4
+\openout4 = `main.lop'.
+
+
+Overfull \hbox (4.70218pt too wide) in paragraph at lines 96--107
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--107
+
+ []
+
+) (./Реферат.tex [3] [4]
+\c=\count333
+\last=\count334
+\pnul=\count335
+\c=\count336
+\last=\count337
+\pnul=\count338
+\c=\count339
+\last=\count340
+\pnul=\count341
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+[]\TU/TimesNewRoman(0)/m/n/14.4 Реализовать серверную часть с использованием Fa
+stAPI и
+ []
+
+[5]
+\c=\count342
+\last=\count343
+\pnul=\count344
+\c=\count345
+\last=\count346
+\pnul=\count347
+) [6] (./main.toc [7] [8])
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
  (./main.lpc)
-\tf@lpc=\write5
-\openout5 = `main.lpc'.
+\tf@lpc=\write6
+\openout6 = `main.lpc'.
+
+ (./Обозначения.tex [9])
+(./Введение.tex [10]
+Underfull \hbox (badness 2772) in paragraph at lines 6--7
+\TU/TimesNewRoman(0)/m/n/14.4 информационно-аналитические системы, предоставляю
+щие возможность
+ []
 
 
-(./Обозначения.tex [4]) (./Анализ.tex [5]
+Underfull \hbox (badness 5359) in paragraph at lines 10--11
+[]\TU/TimesNewRoman(0)/m/n/14.4 Целью выпускной квалификационной работы являетс
+я разработ-
+ []
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 10--11
+\TU/TimesNewRoman(0)/m/n/14.4 ка информационно-аналитической системы для автома
+тизации процес-
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+[]\TU/TimesNewRoman(0)/m/n/14.4 изучить особенности организации работы редакцио
+нно-
+ []
+
+) (./Анализ.tex [12]
 Underfull \hbox (badness 10000) in paragraph at lines 3--3
 []\TU/TimesNewRoman(0)/b/n/14.4 1.1 Характеристика деятельности редакционно-изд
 ательского
@@ -682,24 +764,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--13
 зации
  []
 
-[6] [7]
+[13] [14]
 Underfull \hbox (badness 10000) in paragraph at lines 52--52
 []\TU/TimesNewRoman(0)/b/n/14.4 1.4 Анализ существующих систем автоматизации
  []
 
-[8]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 80--81
 []\TU/TimesNewRoman(0)/m/n/14.4 Несмотря на удобство совместного редактирования
 , сервис не
  []
 
-[9]
+[16]
 Underfull \hbox (badness 1231) in paragraph at lines 99--100
 \TU/TimesNewRoman(0)/m/n/14.4 ренных решений не сочетает в себе функции автомат
 ической проверки
  []
 
-[10]) (./ТехЗадание.tex [11]
+[17]) (./ТехЗадание.tex [18]
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 []\TU/TimesNewRoman(0)/m/n/14.4 Основной целью работы является разработка и вне
 дрение
@@ -717,7 +799,7 @@ Underfull \hbox (badness 3088) in paragraph at lines 9--10
 еских и научных
  []
 
-[12] [13]
+[19] [20]
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 []\TU/TimesNewRoman(0)/m/n/14.4 Интерфейс информационной системы представляет с
 обой веб-
@@ -739,35 +821,35 @@ File: images/profile.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14] [15]
+[21] [22]
 File: images/filecheck.png Graphic file (type bmp)
 <images/filecheck.png>
 File: images/titlegen.png Graphic file (type bmp)
 <images/titlegen.png>
- [16
+ [23
 
 ]
 File: images/statistic.png Graphic file (type bmp)
 <images/statistic.png>
- [17]
+ [24]
 Underfull \hbox (badness 2111) in paragraph at lines 162--163
 []\TU/TimesNewRoman(0)/b/n/14.4 Администратор \TU/TimesNewRoman(0)/m/n/14.4 — о
 бладает полными правами доступа, включая
  []
 
-[18] [19]
+[25] [26]
 File: images/diagramUser.png Graphic file (type bmp)
 <images/diagramUser.png>
 File: images/diagramAdmin.png Graphic file (type bmp)
 <images/diagramAdmin.png>
- [20
+ [27
 
 ]
 File: images/diagramEditor.png Graphic file (type bmp)
 <images/diagramEditor.png>
- [21
+ [28
 
-] [22]
+] [29]
 Underfull \hbox (badness 10000) in paragraph at lines 301--301
 []\TU/TimesNewRoman(0)/b/n/14.4 2.7.4 Вариант использования «Автоматическая про
 верка
@@ -779,19 +861,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 349--349
 та с
  []
 
-[23]
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 373--373
 []\TU/TimesNewRoman(0)/b/n/14.4 2.7.7 Вариант использования «Автоматическое сох
 ранение
  []
 
-[24] [25] [26]
+[31] [32] [33]
 Underfull \hbox (badness 10000) in paragraph at lines 516--517
 []\TU/TimesNewRoman(0)/m/n/14.4 Разрабатываемая информационно-аналитическая сис
 тема должна
  []
 
-[27] [28]) (./ТехПроект.tex [29]
+[34] [35]) (./ТехПроект.tex [36]
 Underfull \hbox (badness 1354) in paragraph at lines 5--6
 []\TU/TimesNewRoman(0)/m/n/14.4 Разрабатываемая информационно-аналитическая сис
 тема построена
@@ -809,7 +891,7 @@ Underfull \hbox (badness 4752) in paragraph at lines 23--24
 структуры и
  []
 
-[30]
+[37]
 File: images/diagramComponent.png Graphic file (type bmp)
 <images/diagramComponent.png>
 
@@ -818,7 +900,7 @@ Underfull \hbox (badness 1237) in paragraph at lines 40--41
  является цен-
  []
 
-[31]
+[38]
 LaTeX Font Info:    Font shape `TU/Verdana(0)/m/n' will be
 (Font)              scaled to size 10.07994pt on input line 57.
 
@@ -827,12 +909,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 ание COM-
  []
 
-[32]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 88--89
 []\TU/TimesNewRoman(0)/m/n/14.4 абзацы, находящиеся внутри таблиц — метод
  []
 
-[33]
+[40]
 Underfull \hbox (badness 5245) in paragraph at lines 102--103
 []\TU/TimesNewRoman(0)/b/n/14.4 межстрочный интервал \TU/TimesNewRoman(0)/m/n/1
 4.4 — \TU/Verdana(0)/m/n/14.4 p.Range.ParagraphFormat.LineSpacingRule\TU/TimesN
@@ -845,7 +927,7 @@ Underfull \hbox (badness 1478) in paragraph at lines 103--104
 .4 — анализируется при проверке номеров
  []
 
-[34] [35]
+[41] [42]
 Underfull \hbox (badness 10000) in paragraph at lines 146--147
 []\TU/TimesNewRoman(0)/m/n/14.4 Если в верхнем колонтитуле обнаружены поля с ти
 пом
@@ -857,20 +939,20 @@ Underfull \hbox (badness 3861) in paragraph at lines 146--147
  присутствует в верхней части страницы,
  []
 
-[36] [37]
+[43] [44]
 Underfull \hbox (badness 1490) in paragraph at lines 189--190
 []\TU/TimesNewRoman(0)/m/n/14.4 Стилизация таблицы: строки с ошибками выделяютс
 я красным
  []
 
-[38] [39] [40]
+[45] [46] [47]
 Underfull \hbox (badness 4048) in paragraph at lines 245--246
 \TU/TimesNewRoman(0)/m/n/14.4 методы \TU/Verdana(0)/m/n/14.4 filter \TU/TimesNe
 wRoman(0)/m/n/14.4 и \TU/Verdana(0)/m/n/14.4 filter_by\TU/TimesNewRoman(0)/m/n/
 14.4 ), что полностью исключает возможность SQL-
  []
 
-[41] [42] [43]
+[48] [49] [50]
 Underfull \hbox (badness 1024) in paragraph at lines 312--313
 []\TU/TimesNewRoman(0)/m/n/14.4 Подключение к базе данных реализовано через отд
 ельный модуль
@@ -878,25 +960,87 @@ Underfull \hbox (badness 1024) in paragraph at lines 312--313
 
 File: images/ERmodel.png Graphic file (type bmp)
 <images/ERmodel.png>
-[44] [45]
+[51] [52]
 File: images/ReloModel.png Graphic file (type bmp)
 <images/ReloModel.png>
- [46] [47]
-ignored: Infinite glue shrinkage found in box being split [48]
+ [53] [54]
+ignored: Infinite glue shrinkage found in box being split [55]
 ignored: Infinite glue sh
-rinkage found in box being split [49]) (./СписокИсточников.tex [50]
+rinkage found in box being split [56]) (./РабочийПроект.tex [57]
+Underfull \hbox (badness 3579) in paragraph at lines 5--6
+[]\TU/TimesNewRoman(0)/m/n/14.4 В таблице []4.1[] приведены основные маршруты (
+endpoints) REST
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+\TU/TimesNewRoman(0)/m/n/14.4 API серверной части, реализующие ключевую функцио
+нальность
+ []
+
+
+Underfull \hbox (badness 5832) in paragraph at lines 5--6
+\TU/TimesNewRoman(0)/m/n/14.4 информационно-аналитической системы: автоматическ
+ую проверку до-
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 41--41
+[]|\TU/TimesNewRoman(0)/m/n/10.95 Скачивание PDF-отчёта с результатами
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 41--41
+[]|\TU/TimesNewRoman(0)/m/n/10.95 Шаг 1: загрузка двух вспомогательных
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [58]
+ignored: Infinite glue shrinkage fo
+und in box being split [59] [60] [61]
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+[]\TU/TimesNewRoman(0)/b/n/14.4 Входные данные\TU/TimesNewRoman(0)/m/n/14.4 : D
+OCX-файл с намеренными нарушениями
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+[]\TU/TimesNewRoman(0)/b/n/14.4 Входные данные\TU/TimesNewRoman(0)/m/n/14.4 : J
+SON с полями: \TU/Verdana(0)/m/n/14.4 manual_title\TU/TimesNewRoman(0)/m/n/14.4
+ , \TU/Verdana(0)/m/n/14.4 discipline_name\TU/TimesNewRoman(0)/m/n/14.4 ,
+ []
+
+[62]
+Underfull \hbox (badness 3690) in paragraph at lines 185--186
+\TU/TimesNewRoman(0)/m/n/14.4 вер возвращает HTTP-статус 422 и сообщение «В дан
+ном документе
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 193--194
+[]\TU/TimesNewRoman(0)/m/n/14.4 модуль проверки документов корректно анализируе
+т параметры
+ []
+
+[63]) (./Заключение.tex [64] [65]) (./СписокИсточников.tex
+Underfull \hbox (badness 1490) in paragraph at lines 43--2
+[]\TU/TimesNewRoman(0)/m/n/14.4 Все задачи, поставленные в начале выпускной ква
+лификационной
+ []
+
+[66]
 Underfull \hbox (badness 2951) in paragraph at lines 18--19
 []\TU/TimesNewRoman(0)/m/n/14.4 Параллельное программирование в Python (threadi
 ng) : сайт. –
  []
 
-[51]
+[67]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 []\TU/TimesNewRoman(0)/m/n/14.4 python-docx Documentation : сайт. – URL: []$[][
 ][][][] [] [] [] [][][][][][][][][][][][] []
  []
 
-[52] [53]
+[68] [69]
 Underfull \hbox (badness 10000) in paragraph at lines 117--118
 []\TU/TimesNewRoman(0)/m/n/14.4 JavaScript : сайт. – URL: []$[][][][][] [] [] [
 ] [][][][][][][][][] [] [][][][][][][] [] [][][] [] [][] [] [][][][] [] [][][] 
@@ -915,21 +1059,42 @@ Underfull \hbox (badness 1237) in paragraph at lines 158--159
 Ф. Лопес. –
  []
 
-[54]) [55] (./main.aux)
+[70]) (./Код.tex [71]
+(d:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 4.
+ (./main.py)
+(./checker.py [72]
+Missing character: There is no ✅ (U+2705) in font Verdana/OT:script=latn;langua
+ge=dflt;!
+Missing character: There is no ❌ (U+274C) in font Verdana/OT:script=latn;langua
+ge=dflt;!
+Missing character: There is no 📌 (U+1F4CC) in font Verdana/OT:script=latn;langu
+age=dflt;!
+Missing character: There is no 📍 (U+1F4CD) in font Verdana/OT:script=latn;langu
+age=dflt;!
+Missing character: There is no 💬 (U+1F4AC) in font Verdana/OT:script=latn;langu
+age=dflt;!
+[73] [74] [75] [76] [77] [78] [79]) (./email.py [80] [81]) (./authService.py
+[82] [83] [84]) (./pdfReport.py [85] [86] [87] [88]) (./titlePageGenerator.py
+[89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100]) [101]) [102]
+(./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 677E9593A4585E0D776656B55949441A;19782.
+(rerunfilecheck)             Checksum: B4C20444D5E2C968ACAD89FE40F4DDA0;24542.
  ) 
 Here is how much of TeX's memory you used:
- 16195 strings out of 467992
- 311465 string characters out of 5433178
- 986029 words of memory out of 5000000
- 44861 multiletter control sequences out of 15000+600000
- 629234 words of font info for 74 fonts, out of 8000000 for 9000
+ 17541 strings out of 467992
+ 330257 string characters out of 5433178
+ 1217029 words of memory out of 5000000
+ 46156 multiletter control sequences out of 15000+600000
+ 632005 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,11n,110p,1489b,613s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,11n,110p,1489b,2229s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (55 pages).
+Output written on main.pdf (102 pages).
