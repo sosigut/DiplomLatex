@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.5)  22 MAY 2026 23:56
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.5)  31 MAY 2026 13:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -682,7 +682,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 -
  []
 
-[2] (./main.lop)
+[2] (./main.lop [3])
 \tf@lop=\write4
 \openout4 = `main.lop'.
 
@@ -696,7 +696,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--107
 
  []
 
-) (./Реферат.tex [3] [4]
+) (./Реферат.tex [4]
 \c=\count333
 \last=\count334
 \pnul=\count335
@@ -707,9 +707,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--107
 \last=\count340
 \pnul=\count341
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-[]\TU/TimesNewRoman(0)/m/n/14.4 Реализовать серверную часть с использованием Fa
-stAPI и
+Underfull \hbox (badness 2189) in paragraph at lines 15--16
+\TU/TimesNewRoman(0)/m/n/14.4 взаимодействие с базой данных. Клиентская часть п
+редоставляет web-
+ []
+
+
+Underfull \hbox (badness 6141) in paragraph at lines 17--18
+[]\TU/TimesNewRoman(0)/m/n/14.4 В системе реализован модуль автоматической пров
+ерки DOCX-
  []
 
 [5]
@@ -719,6 +725,9 @@ stAPI и
 \c=\count345
 \last=\count346
 \pnul=\count347
+\c=\count348
+\last=\count349
+\pnul=\count350
 ) [6] (./main.toc [7] [8])
 \tf@toc=\write5
 \openout5 = `main.toc'.
@@ -727,61 +736,128 @@ stAPI и
 \tf@lpc=\write6
 \openout6 = `main.lpc'.
 
- (./Обозначения.tex [9])
-(./Введение.tex [10]
-Underfull \hbox (badness 2772) in paragraph at lines 6--7
-\TU/TimesNewRoman(0)/m/n/14.4 информационно-аналитические системы, предоставляю
-щие возможность
+ (./Обозначения.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+
+ []
+
+[9] [10]) (./Резюме.tex [11]
+Underfull \hbox (badness 4505) in paragraph at lines 6--7
+[]\TU/TimesNewRoman(0)/m/n/14.4 Название: «Информационно-аналитическая система 
+автоматизации
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 10--11
-[]\TU/TimesNewRoman(0)/m/n/14.4 Целью выпускной квалификационной работы являетс
-я разработ-
+Underfull \hbox (badness 1701) in paragraph at lines 6--7
+\TU/TimesNewRoman(0)/m/n/14.4 проверки и оформления учебно-методических материа
+лов редакционно-
  []
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 10--11
-\TU/TimesNewRoman(0)/m/n/14.4 ка информационно-аналитической системы для автома
-тизации процес-
+Underfull \hbox (badness 7203) in paragraph at lines 6--7
+\TU/TimesNewRoman(0)/m/n/14.4 ления и обработки учебно-методических документов 
+в редакционно-
  []
 
-[11]
+
+Underfull \hbox (badness 1953) in paragraph at lines 25--26
+\TU/TimesNewRoman(0)/m/n/14.4 верки учебно-методических материалов, уменьшить к
+оличество ошибок
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 27--28
+[]\TU/TimesNewRoman(0)/m/n/14.4 Актуальность проекта обусловлена необходимостью
+ автоматизации
+ []
+
+[12]
+Underfull \hbox (badness 2221) in paragraph at lines 44--45
+[]\TU/TimesNewRoman(0)/m/n/14.4 Комплексная автоматизация процессов проверки и 
+оформления
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 50--51
+[]\TU/TimesNewRoman(0)/m/n/14.4 Использование клиент-серверной архитектуры, обе
+спечивающей
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+[]\TU/TimesNewRoman(0)/m/n/14.4 Повышение эффективности взаимодействия сотрудни
+ков
+ []
+
+) (./Введение.tex [14]
+Underfull \hbox (badness 2073) in paragraph at lines 6--7
+\TU/TimesNewRoman(0)/m/n/14.4 системы предоставляют возможность автоматизирован
+ной проверки до-
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 6--7
+\TU/TimesNewRoman(0)/m/n/14.4 кументов, генерации отчётов, формирования титульн
+ых листов и орга-
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 6--7
+\TU/TimesNewRoman(0)/m/n/14.4 низации взаимодействия между авторами и сотрудник
+ами редакционно-
+ []
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 10--11
+\TU/TimesNewRoman(0)/m/n/14.4 системы для автоматизации процессов проверки и об
+работки учебно-
+ []
+
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
-[]\TU/TimesNewRoman(0)/m/n/14.4 изучить особенности организации работы редакцио
+[]\TU/TimesNewRoman(0)/m/n/14.4 Изучить особенности организации работы редакцио
 нно-
  []
 
-) (./Анализ.tex [12]
+
+Underfull \hbox (badness 1648) in paragraph at lines 15--16
+[]\TU/TimesNewRoman(0)/m/n/14.4 Проанализировать существующие средства автомати
+зации доку-
+ []
+
+\c=\count351
+\last=\count352
+\pnul=\count353
+[16]
+Underfull \hbox (badness 1052) in paragraph at lines 32--33
+[]\TU/TimesNewRoman(0)/m/it/14.4 В третьем разделе \TU/TimesNewRoman(0)/m/n/14.
+4 на стадии технического проектирования пред-
+ []
+
+) (./Анализ.tex [17]
 Underfull \hbox (badness 10000) in paragraph at lines 3--3
 []\TU/TimesNewRoman(0)/b/n/14.4 1.1 Характеристика деятельности редакционно-изд
 ательского
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-[]\TU/TimesNewRoman(0)/b/n/14.4 1.2 Проблематика традиционного подхода к органи
-зации
- []
-
-[13] [14]
+[18] [19]
 Underfull \hbox (badness 10000) in paragraph at lines 52--52
 []\TU/TimesNewRoman(0)/b/n/14.4 1.4 Анализ существующих систем автоматизации
  []
 
-[15]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 80--81
 []\TU/TimesNewRoman(0)/m/n/14.4 Несмотря на удобство совместного редактирования
 , сервис не
  []
 
-[16]
+[21]
 Underfull \hbox (badness 1231) in paragraph at lines 99--100
 \TU/TimesNewRoman(0)/m/n/14.4 ренных решений не сочетает в себе функции автомат
 ической проверки
  []
 
-[17]) (./ТехЗадание.tex [18]
+[22]) (./ТехЗадание.tex [23]
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 []\TU/TimesNewRoman(0)/m/n/14.4 Основной целью работы является разработка и вне
 дрение
@@ -799,81 +875,76 @@ Underfull \hbox (badness 3088) in paragraph at lines 9--10
 еских и научных
  []
 
-[19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 []\TU/TimesNewRoman(0)/m/n/14.4 Интерфейс информационной системы представляет с
 обой веб-
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 49--50
+Underfull \hbox (badness 1270) in paragraph at lines 41--42
 \TU/TimesNewRoman(0)/m/n/14.4 должен быть адаптирован для работы в распространё
 нных браузерах и
  []
 
+[25]
 File: images/authorization.png Graphic file (type bmp)
 <images/authorization.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: images/profile.png Graphic file (type bmp)
 <images/profile.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[21] [22]
+ [26] [27]
 File: images/filecheck.png Graphic file (type bmp)
 <images/filecheck.png>
 File: images/titlegen.png Graphic file (type bmp)
 <images/titlegen.png>
- [23
+ [28
 
 ]
 File: images/statistic.png Graphic file (type bmp)
 <images/statistic.png>
- [24]
-Underfull \hbox (badness 2111) in paragraph at lines 162--163
+ [29]
+Underfull \hbox (badness 2111) in paragraph at lines 154--155
 []\TU/TimesNewRoman(0)/b/n/14.4 Администратор \TU/TimesNewRoman(0)/m/n/14.4 — о
 бладает полными правами доступа, включая
  []
 
-[25] [26]
+[30] [31]
 File: images/diagramUser.png Graphic file (type bmp)
 <images/diagramUser.png>
 File: images/diagramAdmin.png Graphic file (type bmp)
 <images/diagramAdmin.png>
- [27
+ [32
 
 ]
 File: images/diagramEditor.png Graphic file (type bmp)
 <images/diagramEditor.png>
- [28
+ [33
 
-] [29]
-Underfull \hbox (badness 10000) in paragraph at lines 301--301
+] [34]
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 []\TU/TimesNewRoman(0)/b/n/14.4 2.7.4 Вариант использования «Автоматическая про
 верка
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--349
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
 []\TU/TimesNewRoman(0)/b/n/14.4 2.7.6 Вариант использования «Скачивание докумен
 та с
  []
 
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 373--373
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
 []\TU/TimesNewRoman(0)/b/n/14.4 2.7.7 Вариант использования «Автоматическое сох
 ранение
  []
 
-[31] [32] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 516--517
+[36] [37] [38]
+Underfull \hbox (badness 10000) in paragraph at lines 508--509
 []\TU/TimesNewRoman(0)/m/n/14.4 Разрабатываемая информационно-аналитическая сис
 тема должна
  []
 
-[34] [35]) (./ТехПроект.tex [36]
+[39] [40]) (./ТехПроект.tex [41]
 Underfull \hbox (badness 1354) in paragraph at lines 5--6
 []\TU/TimesNewRoman(0)/m/n/14.4 Разрабатываемая информационно-аналитическая сис
 тема построена
@@ -891,7 +962,7 @@ Underfull \hbox (badness 4752) in paragraph at lines 23--24
 структуры и
  []
 
-[37]
+[42]
 File: images/diagramComponent.png Graphic file (type bmp)
 <images/diagramComponent.png>
 
@@ -900,7 +971,7 @@ Underfull \hbox (badness 1237) in paragraph at lines 40--41
  является цен-
  []
 
-[38]
+[43]
 LaTeX Font Info:    Font shape `TU/Verdana(0)/m/n' will be
 (Font)              scaled to size 10.07994pt on input line 57.
 
@@ -909,12 +980,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 ание COM-
  []
 
-[39]
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 88--89
 []\TU/TimesNewRoman(0)/m/n/14.4 абзацы, находящиеся внутри таблиц — метод
  []
 
-[40]
+[45]
 Underfull \hbox (badness 5245) in paragraph at lines 102--103
 []\TU/TimesNewRoman(0)/b/n/14.4 межстрочный интервал \TU/TimesNewRoman(0)/m/n/1
 4.4 — \TU/Verdana(0)/m/n/14.4 p.Range.ParagraphFormat.LineSpacingRule\TU/TimesN
@@ -927,7 +998,7 @@ Underfull \hbox (badness 1478) in paragraph at lines 103--104
 .4 — анализируется при проверке номеров
  []
 
-[41] [42]
+[46] [47]
 Underfull \hbox (badness 10000) in paragraph at lines 146--147
 []\TU/TimesNewRoman(0)/m/n/14.4 Если в верхнем колонтитуле обнаружены поля с ти
 пом
@@ -939,20 +1010,20 @@ Underfull \hbox (badness 3861) in paragraph at lines 146--147
  присутствует в верхней части страницы,
  []
 
-[43] [44]
+[48] [49]
 Underfull \hbox (badness 1490) in paragraph at lines 189--190
 []\TU/TimesNewRoman(0)/m/n/14.4 Стилизация таблицы: строки с ошибками выделяютс
 я красным
  []
 
-[45] [46] [47]
+[50] [51] [52]
 Underfull \hbox (badness 4048) in paragraph at lines 245--246
 \TU/TimesNewRoman(0)/m/n/14.4 методы \TU/Verdana(0)/m/n/14.4 filter \TU/TimesNe
 wRoman(0)/m/n/14.4 и \TU/Verdana(0)/m/n/14.4 filter_by\TU/TimesNewRoman(0)/m/n/
 14.4 ), что полностью исключает возможность SQL-
  []
 
-[48] [49] [50]
+[53] [54] [55]
 Underfull \hbox (badness 1024) in paragraph at lines 312--313
 []\TU/TimesNewRoman(0)/m/n/14.4 Подключение к базе данных реализовано через отд
 ельный модуль
@@ -960,113 +1031,571 @@ Underfull \hbox (badness 1024) in paragraph at lines 312--313
 
 File: images/ERmodel.png Graphic file (type bmp)
 <images/ERmodel.png>
-[51] [52]
+[56] [57]
 File: images/ReloModel.png Graphic file (type bmp)
 <images/ReloModel.png>
- [53] [54]
-ignored: Infinite glue shrinkage found in box being split [55]
+ [58] [59]
+ignored: Infinite glue shrinkage found in box being split [60]
 ignored: Infinite glue sh
-rinkage found in box being split [56]) (./РабочийПроект.tex [57]
-Underfull \hbox (badness 3579) in paragraph at lines 5--6
-[]\TU/TimesNewRoman(0)/m/n/14.4 В таблице []4.1[] приведены основные маршруты (
-endpoints) REST
+rinkage found in box being split [61]) (./РабочийПроект.tex [62]
+Underfull \hbox (badness 1337) in paragraph at lines 9--10
+[]\TU/TimesNewRoman(0)/m/n/14.4 Класс \TU/Verdana(0)/m/n/14.4 WordMethodicalChe
+cker \TU/TimesNewRoman(0)/m/n/14.4 является центральным компонентом мо-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-\TU/TimesNewRoman(0)/m/n/14.4 API серверной части, реализующие ключевую функцио
-нальность
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\TU/TimesNewRoman(0)/m/n/14.4 конструктор, инициализи-
  []
 
 
-Underfull \hbox (badness 5832) in paragraph at lines 5--6
-\TU/TimesNewRoman(0)/m/n/14.4 информационно-аналитической системы: автоматическ
-ую проверку до-
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\TU/TimesNewRoman(0)/m/n/14.4 рует параметры проверки
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 41--41
-[]|\TU/TimesNewRoman(0)/m/n/10.95 Скачивание PDF-отчёта с результатами
+Underfull \hbox (badness 7981) in paragraph at lines 36--36
+\TU/TimesNewRoman(0)/m/n/14.4 мость создания исправлен-
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 41--41
-[]|\TU/TimesNewRoman(0)/m/n/10.95 Шаг 1: загрузка двух вспомогательных
+Underfull \hbox (badness 1107) in paragraph at lines 36--36
+[]|\TU/TimesNewRoman(0)/m/n/14.4 запуск экземпляра Microsoft
  []
 
 
-ignored: Infinite glue shrinkage found in box being split [58]
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\TU/TimesNewRoman(0)/m/n/14.4 Word в фоновом режиме,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\TU/TimesNewRoman(0)/m/n/14.4 отключение всплывающих
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 36--36
+[]|\TU/TimesNewRoman(0)/m/n/14.4 открытие DOCX-файла для
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\TU/TimesNewRoman(0)/m/n/14.4 запуск полной проверки
+ []
+
+
+Underfull \hbox (badness 6380) in paragraph at lines 36--36
+\TU/TimesNewRoman(0)/m/n/14.4 документа: анализ абзацев,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\TU/TimesNewRoman(0)/m/n/14.4 возврат отчёта и пути к
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\TU/TimesNewRoman(0)/m/n/14.4 фиксация ошибок шрифта,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\TU/TimesNewRoman(0)/m/n/14.4 проверка полей страницы
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\TU/TimesNewRoman(0)/m/n/14.4 (верхнее, нижнее, левое,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+\TU/TimesNewRoman(0)/m/n/14.4 правое) на соответствие
+ []
+
+
+Underfull \hbox (badness 5504) in paragraph at lines 36--36
+[]|\TU/TimesNewRoman(0)/m/n/14.4 группировка последователь-
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [63]
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+[]|\TU/TimesNewRoman(0)/m/n/14.4 формирование текстового
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+\TU/TimesNewRoman(0)/m/n/14.4 представления отчёта для
+ []
+
+[64]
+Underfull \hbox (badness 2293) in paragraph at lines 88--88
+[]|\TU/TimesNewRoman(0)/m/n/14.4 генерация титульного листа
+ []
+
+
+Underfull \hbox (badness 3579) in paragraph at lines 88--88
+\TU/TimesNewRoman(0)/m/n/14.4 для методических указаний
+ []
+
+
+Underfull \hbox (badness 7631) in paragraph at lines 88--88
+\TU/TimesNewRoman(0)/m/n/14.4 (название, дисциплина, на-
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 88--88
+\TU/TimesNewRoman(0)/m/n/14.4 правление, составитель, ре-
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 88--88
+[]|\TU/TimesNewRoman(0)/m/n/14.4 генерация титульного листа
+ []
+
+
+Underfull \hbox (badness 5417) in paragraph at lines 88--88
+\TU/TimesNewRoman(0)/m/n/14.4 для учебного пособия (ав-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\TU/TimesNewRoman(0)/m/n/14.4 тор, название, рецензенты,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\TU/TimesNewRoman(0)/m/n/14.4 направления, значение А,
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 88--88
+[]|\TU/TimesNewRoman(0)/m/n/14.4 генерация титульного листа
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 88--88
+\TU/TimesNewRoman(0)/m/n/14.4 ну строку, название, город,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]|\TU/TimesNewRoman(0)/m/n/14.4 вспомогательная функция
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\TU/TimesNewRoman(0)/m/n/14.4 для добавления абзаца с
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\TU/TimesNewRoman(0)/m/n/14.4 заданными параметрами
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 88--88
+[]|\TU/TimesNewRoman(0)/m/n/14.4 добавление пустых абзацев
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [65]
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]|\TU/TimesNewRoman(0)/m/n/14.4 формирование PDF-отчёта,
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 112--112
+\TU/TimesNewRoman(0)/m/n/14.4 содержащего таблицу оши-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+\TU/TimesNewRoman(0)/m/n/14.4 бок (номер, раздел, тип,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+\TU/TimesNewRoman(0)/m/n/14.4 местоположение, описание)
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 112--112
+\TU/TimesNewRoman(0)/m/n/14.4 ства Times New Roman для
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [66]
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]|\TU/TimesNewRoman(0)/m/n/14.4 формирование MIME-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+\TU/TimesNewRoman(0)/m/n/14.4 письма, добавление вло-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+\TU/TimesNewRoman(0)/m/n/14.4 жений, отправка через
+ []
+
+[67]
+Overfull \hbox (2.2121pt too wide) in paragraph at lines 183--183
+[]|\TU/Verdana(0)/m/n/14.4 generate_tutorial_title_page| 
+ []
+
+
+Overfull \hbox (23.42033pt too wide) in paragraph at lines 183--183
+[]|\TU/Verdana(0)/m/n/14.4 generate_monograph_title_page| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
+\TU/TimesNewRoman(0)/m/n/14.4 проверки через \TU/Verdana(0)/m/n/14.4 WordMethod
+icalChecker\TU/TimesNewRoman(0)/m/n/14.4 .
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 205--205
+\TU/TimesNewRoman(0)/m/n/14.4 При ошибках блокирует переход к
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
+[]|\TU/TimesNewRoman(0)/m/n/14.4 формирование email с вложениями
+ []
+
+
+Underfull \hbox (badness 4254) in paragraph at lines 205--205
+\TU/TimesNewRoman(0)/m/n/14.4 (три файла), отправка через SMTP,
+ []
+
+
+ignored: Infinite glue shrinkage found in box being split [68]
 ignored: Infinite glue shrinkage fo
-und in box being split [59] [60] [61]
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
-[]\TU/TimesNewRoman(0)/b/n/14.4 Входные данные\TU/TimesNewRoman(0)/m/n/14.4 : D
-OCX-файл с намеренными нарушениями
+und in box being split [69]
+Underfull \hbox (badness 2726) in paragraph at lines 260--261
+[]\TU/TimesNewRoman(0)/m/n/14.4 Отправить POST-запрос на \TU/Verdana(0)/m/n/14.
+4 /checker/check \TU/TimesNewRoman(0)/m/n/14.4 с корректным DOCX-
+ []
+
+[70]
+Underfull \hbox (badness 1642) in paragraph at lines 297--298
+[]\TU/TimesNewRoman(0)/b/n/14.4 Ожидаемый результат\TU/TimesNewRoman(0)/m/n/14.
+4 : библиотека \TU/Verdana(0)/m/n/14.4 python-docx \TU/TimesNewRoman(0)/m/n/14.
+4 формирует DOCX-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
-[]\TU/TimesNewRoman(0)/b/n/14.4 Входные данные\TU/TimesNewRoman(0)/m/n/14.4 : J
-SON с полями: \TU/Verdana(0)/m/n/14.4 manual_title\TU/TimesNewRoman(0)/m/n/14.4
- , \TU/Verdana(0)/m/n/14.4 discipline_name\TU/TimesNewRoman(0)/m/n/14.4 ,
- []
-
-[62]
-Underfull \hbox (badness 3690) in paragraph at lines 185--186
-\TU/TimesNewRoman(0)/m/n/14.4 вер возвращает HTTP-статус 422 и сообщение «В дан
-ном документе
+Underfull \hbox (badness 1946) in paragraph at lines 307--308
+[]\TU/TimesNewRoman(0)/m/n/14.4 Отправить POST-запрос на \TU/Verdana(0)/m/n/14.
+4 /title-page/generate-tutorial \TU/TimesNewRoman(0)/m/n/14.4 с JSON, со-
  []
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 193--194
-[]\TU/TimesNewRoman(0)/m/n/14.4 модуль проверки документов корректно анализируе
-т параметры
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+[]\TU/TimesNewRoman(0)/b/n/14.4 Ожидаемый результат\TU/TimesNewRoman(0)/m/n/14.
+4 : формируется DOCX-файл с правильно
  []
 
-[63]) (./Заключение.tex [64] [65]) (./СписокИсточников.tex
+[71]
+Underfull \hbox (badness 2735) in paragraph at lines 336--337
+[]\TU/TimesNewRoman(0)/m/n/14.4 Отправить POST-запрос на \TU/Verdana(0)/m/n/14.
+4 /rio/upload-step2 \TU/TimesNewRoman(0)/m/n/14.4 с основным DOCX-
+ []
+
+[72] [73]
+Underfull \hbox (badness 1337) in paragraph at lines 394--395
+[]\TU/TimesNewRoman(0)/b/n/14.4 Безопасность\TU/TimesNewRoman(0)/m/n/14.4 : дос
+туп к защищённым маршрутам предоставляется
+ []
+
+) (./Заключение.tex
+Underfull \hbox (badness 5417) in paragraph at lines 400--1
+[]\TU/TimesNewRoman(0)/m/n/14.4 В ходе системного тестирования были успешно про
+верены все
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--1
+\TU/TimesNewRoman(0)/m/n/14.4 функциональные и нефункциональные требования, пре
+дъявленные к
+ []
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 400--1
+\TU/TimesNewRoman(0)/m/n/14.4 информационно-аналитической системе. Разработанно
+е приложение ра-
+ []
+
+[74] [75]) (./СписокИсточников.tex
 Underfull \hbox (badness 1490) in paragraph at lines 43--2
 []\TU/TimesNewRoman(0)/m/n/14.4 Все задачи, поставленные в начале выпускной ква
 лификационной
  []
 
-[66]
-Underfull \hbox (badness 2951) in paragraph at lines 18--19
-[]\TU/TimesNewRoman(0)/m/n/14.4 Параллельное программирование в Python (threadi
-ng) : сайт. –
- []
-
-[67]
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
-[]\TU/TimesNewRoman(0)/m/n/14.4 python-docx Documentation : сайт. – URL: []$[][
-][][][] [] [] [] [][][][][][][][][][][][] []
- []
-
-[68] [69]
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
-[]\TU/TimesNewRoman(0)/m/n/14.4 JavaScript : сайт. – URL: []$[][][][][] [] [] [
-] [][][][][][][][][] [] [][][][][][][] [] [][][] [] [][] [] [][][][] [] [][][] 
-[]
+[76]
+Underfull \hbox (badness 1436) in paragraph at lines 30--31
+[]\TU/TimesNewRoman(0)/m/n/14.4 Pydantic Documentation : официальный сайт. – UR
+L: []$[][][][][] [] [] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 132--133
-[]\TU/TimesNewRoman(0)/m/n/14.4 PyCharm Documentation : сайт. – URL: []$[][][][
-][] [] [] [] [][][] [] [][][][][][][][][] [] [][][] []
+Underfull \hbox (badness 1642) in paragraph at lines 33--34
+[]\TU/TimesNewRoman(0)/m/n/14.4 Uvicorn Documentation : официальный сайт. – URL
+: []$[][][][][] [] [] [] [][][] []
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 158--159
+Underfull \hbox (badness 1521) in paragraph at lines 36--37
+[]\TU/TimesNewRoman(0)/m/n/14.4 Starlette Documentation : официальный сайт. – U
+RL: []$[][][][][] [] [] [] [][][] []
+ []
+
+[77]
+Underfull \hbox (badness 2111) in paragraph at lines 63--64
+[]\TU/TimesNewRoman(0)/m/n/14.4 python-docx Documentation : официальный сайт. –
+ URL: []$[][][][][] [] [] []
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 69--70
+[]\TU/TimesNewRoman(0)/m/n/14.4 ECMA-376 Office Open XML File Formats : официал
+ьный сайт.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+\TU/TimesNewRoman(0)/m/n/14.4 – URL: []$[][][][][] [] [] [] [][][] [] [][][][][
+][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][] [] [][][][][][][][][] []
+ []
+
+[78]
+Underfull \hbox (badness 2435) in paragraph at lines 90--91
+\TU/TimesNewRoman(0)/m/n/14.4 ный сайт. – URL: []$[][][][][] [] [] [] [][][] []
+ [][][] [] [][][] [] [][][][] [] [][][] [] [] [] [] [] [] [] [][][]$[] (дата об
+ращения:
+ []
+
+[79]
+Underfull \hbox (badness 1527) in paragraph at lines 126--127
+[]\TU/TimesNewRoman(0)/m/n/14.4 Fielding, R. Architectural Styles and the Desig
+n of Network-based
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 126--127
+\TU/TimesNewRoman(0)/m/n/14.4 Software Architectures // University of Californi
+a : официальный сайт. –
+ []
+
+
+Underfull \hbox (badness 6876) in paragraph at lines 135--136
+[]\TU/TimesNewRoman(0)/m/n/14.4 Bootstrap Documentation : официальный сайт. – U
+RL: []$[][][][][] [] [] []
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 153--154
 []\TU/TimesNewRoman(0)/m/n/14.4 Лопес, Ф. SQLAlchemy. Архитектура и паттерны / 
 Ф. Лопес. –
  []
 
-[70]) (./Код.tex [71]
-(d:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
+[80]) (./Плакаты.tex [81] [82]
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 12 replaced by U+FFFD.
+File: Plakat1titlelist.eps Graphic file (type eps)
+<Plakat1titlelist.eps>
+Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 18 replaced by U+FFFD.
+File: zadachi.eps Graphic file (type eps)
+<zadachi.eps>
+ [83
+
+]
+Overfull \vbox (40.19745pt too high) has occurred while \output is active []
+
+
+[84]
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
+File: Plakat2ERdiogramm.eps Graphic file (type eps)
+<Plakat2ERdiogramm.eps>
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 30 replaced by U+FFFD.
+File: Plakat3.eps Graphic file (type eps)
+<Plakat3.eps>
+ [85]
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 36 replaced by U+FFFD.
+File: Plakat5.eps Graphic file (type eps)
+<Plakat5.eps>
+ [86]
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 42 replaced by U+FFFD.
+File: Plakat6.eps Graphic file (type eps)
+<Plakat6.eps>
+ [87]
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 48 replaced by U+FFFD.
+File: Plakat7.eps Graphic file (type eps)
+<Plakat7.eps>
+ [88]
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 54 replaced by U+FFFD.
+File: Plakat8.eps Graphic file (type eps)
+<Plakat8.eps>
+ [89]
+Overfull \vbox (39.95135pt too high) has occurred while \output is active []
+
+
+[90]) (./Код.tex (d:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 4.
- (./main.py)
-(./checker.py [72]
+
+(./main.py) (./checker.py [91
+
+]
 Missing character: There is no ✅ (U+2705) in font Verdana/OT:script=latn;langua
 ge=dflt;!
 Missing character: There is no ❌ (U+274C) in font Verdana/OT:script=latn;langua
@@ -1077,24 +1606,24 @@ Missing character: There is no 📍 (U+1F4CD) in font Verdana/OT:script=latn;lan
 age=dflt;!
 Missing character: There is no 💬 (U+1F4AC) in font Verdana/OT:script=latn;langu
 age=dflt;!
-[73] [74] [75] [76] [77] [78] [79]) (./email.py [80] [81]) (./authService.py
-[82] [83] [84]) (./pdfReport.py [85] [86] [87] [88]) (./titlePageGenerator.py
-[89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100]) [101]) [102]
-(./main.aux)
+[92] [93] [94] [95] [96] [97] [98]) (./email.py [99] [100]) (./authService.py
+[101] [102] [103]) (./pdfReport.py [104] [105] [106] [107])
+(./titlePageGenerator.py [108] [109] [110] [111] [112] [113] [114] [115]
+[116] [117] [118] [119]) [120]) [121] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B4C20444D5E2C968ACAD89FE40F4DDA0;24542.
+(rerunfilecheck)             Checksum: 0F2C8F26F2753ABDB51E31E73D37B5FB;28771.
  ) 
 Here is how much of TeX's memory you used:
- 17541 strings out of 467992
- 330257 string characters out of 5433178
- 1217029 words of memory out of 5000000
- 46156 multiletter control sequences out of 15000+600000
- 632005 words of font info for 87 fonts, out of 8000000 for 9000
+ 17609 strings out of 467992
+ 331453 string characters out of 5433178
+ 1218029 words of memory out of 5000000
+ 46217 multiletter control sequences out of 15000+600000
+ 629250 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,11n,110p,1489b,2229s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (102 pages).
+Output written on main.pdf (121 pages).

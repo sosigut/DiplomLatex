@@ -1,62 +1,21 @@
 \section{Рабочий проект}
 
-\subsection{Маршруты приложения}
+\subsection{Спецификация компонентов программной системы}
 
-В таблице \ref{tab:app_routes} приведены основные маршруты (endpoints) REST API серверной части, реализующие ключевую функциональность информационно-аналитической системы: автоматическую проверку документов, генерацию титульных листов и отправку файлов в редакционно-издательский отдел.
+В данном разделе приведено описание основных модулей и классов, разработанных в процессе реализации серверной части информационно-аналитической системы. Для каждого класса указаны его назначение, а также перечень методов с модификаторами доступа и кратким описанием. Для модулей, состоящих из набора функций, приводится описание каждой функции.
 
-{\small
-	\begin{xltabular}{\textwidth}{|l|l|X|}
-		\caption{Маршруты приложения \label{tab:app_routes}}\\
-		\hline
-		\textbf{URI} & \textbf{HTTP-метод} & \textbf{Назначение} \\
-		\hline
-		\endfirsthead
-		
-		\hline
-		\textbf{URI} & \textbf{HTTP-метод} & \textbf{Назначение} \\
-		\hline
-		\endhead
-		
-		\hline
-		\endfoot
-		
-		\multicolumn{3}{|c|}{\textbf{Модуль проверки документов (/checker)}} \\ \hline
-		/checker/check & POST & Загрузка и автоматическая проверка документа DOCX \\ \hline
-		/checker/my/\{doc\_type\} & GET & Получение списка успешно проверенных документов пользователя \\ \hline
-		/checker/download-checked/\{filename\} & GET & Скачивание документа с визуально выделенными ошибками \\ \hline
-		/checker/report/\{filename\} & GET & Скачивание PDF-отчёта с результатами проверки \\ \hline
-		/checker/ping & GET & Проверка работоспособности модуля \\ \hline
-		
-		\multicolumn{3}{|c|}{\textbf{Модуль генерации титульных листов (/title-page)}} \\ \hline
-		/title-page/generate & POST & Генерация титульного листа для методических указаний \\ \hline
-		/title-page/generate-tutorial & POST & Генерация титульного листа для учебного пособия \\ \hline
-		/title-page/generate-monograph & POST & Генерация титульного листа для монографии \\ \hline
-		
-		\multicolumn{3}{|c|}{\textbf{Модуль отправки в РИО (/rio)}} \\ \hline
-		/rio/upload-step1 & POST & Шаг 1: загрузка двух вспомогательных файлов \\ \hline
-		/rio/upload-step2 & POST & Шаг 2: загрузка и проверка основного документа \\ \hline
-		/rio/submit-step3 & POST & Шаг 3: отправка всех трёх файлов на email РИО \\ \hline
-		/rio/reset & POST & Сброс сессии отправки (очистка временных файлов) \\ \hline
-		
-	\end{xltabular}
-}
+\subsubsection{Класс WordMethodicalChecker (модуль checker.py)}
 
+Класс \texttt{WordMethodicalChecker} является центральным компонентом модуля проверки документов. Он реализует алгоритм автоматической проверки оформления DOCX-файлов через COM-интерфейс Microsoft Word. Класс обеспечивает открытие документа, анализ параметров форматирования (шрифт, размер, отступы, интервалы), проверку полей страницы и нумерации, а также формирование списка ошибок. Методы класса перечислены в таблице~\ref{tab:checker_class}.
 
-\subsection{Спецификация контроллеров приложения}
-
-Ниже приведено описание ключевых методов контроллеров, реализующих автоматическую проверку документов, генерацию титульных листов и отправку файлов в РИО. Эти компоненты составляют основную функциональность информационно-аналитической системы.
-
-\subsubsection{Контроллер модуля проверки документов}
-
-В таблице \ref{tab:checker_controller} приведено описание методов класса \texttt{CheckerController}, который реализует алгоритм автоматической проверки оформления документов через COM-интерфейс Microsoft Word.
-
-\begin{xltabular}{\textwidth}{|l|l|X|}
-	\caption{Спецификация методов класса \texttt{CheckerController}\label{tab:checker_controller}}\\
+\begin{xltabular}{\textwidth}{|p{7cm}|p{1.8cm}|X|}
+	\caption{Методы класса \texttt{WordMethodicalChecker} (checker.py)\label{tab:checker_class}}\\
 	\hline
 	\textbf{Название} & \textbf{Доступ} & \textbf{Описание} \\
 	\hline
 	\endfirsthead
 	
+	\continuecaption{Продолжение таблицы \ref{tab:checker_class}}
 	\hline
 	\textbf{Название} & \textbf{Доступ} & \textbf{Описание} \\
 	\hline
@@ -65,24 +24,29 @@
 	\hline
 	\endfoot
 	
-	check & public & Загрузка DOCX-файла, запуск проверки (через COM-интерфейс Word). Возвращает JSON с результатами, ссылку на исправленный документ и PDF-отчёт. \\ \hline
-	getMyDocuments & public & Возврат списка ранее проверенных документов пользователя с их метаданными (название, дата, факультет, кафедра). \\ \hline
-	downloadCheckedFile & public & Скачивание DOCX с визуально выделенными ошибками (красный цвет, комментарии). \\ \hline
-	openPdfReport & public & Скачивание PDF-отчёта со списком ошибок и рекомендациями. \\ \hline
-	ping & public & Проверка работоспособности модуля (используется для диагностики). \\ \hline
+	\texttt{\_\_init\_\_} & public & конструктор, инициализирует параметры проверки (видимость Word, необходимость создания исправленной копии). \\ \hline
+	\texttt{\_\_enter\_\_} & public & запуск экземпляра Microsoft Word в фоновом режиме, отключение всплывающих окон. \\ \hline
+	\texttt{\_\_exit\_\_} & public & корректное завершение процесса Word. \\ \hline
+	\texttt{open\_document} & public & открытие DOCX-файла для чтения или с правом записи. \\ \hline
+	\texttt{check} & public & запуск полной проверки документа: анализ абзацев, полей страницы, нумерации, возврат отчёта и пути к исправленному файлу. \\ \hline
+	\texttt{\_check\_paragraphs} & private & перебор абзацев, извлечение параметров форматирования, фиксация ошибок шрифта, размера, отступа, интервала. \\ \hline
+	\texttt{\_check\_margins} & private & проверка полей страницы (верхнее, нижнее, левое, правое) на соответствие эталонам. \\ \hline
+	\texttt{\_check\_page\_numbers} & private & проверка наличия и расположения нумерации страниц. \\ \hline
+	\texttt{\_group\_pages} & private & группировка последовательных страниц с однотипными ошибками в диапазоны. \\ \hline
 \end{xltabular}
 
-\subsubsection{Контроллер модуля генерации титульных листов}
+\subsubsection{Класс CheckReport (модуль checker.py)}
 
-В таблице \ref{tab:titlepage_controller} приведено описание методов класса \texttt{TitlePageController}, который создаёт титульные листы для разных типов документов с использованием библиотеки \texttt{python-docx}.
+Класс \texttt{CheckReport} представляет собой структуру для хранения результатов проверки документа. Он содержит список выявленных ошибок и предоставляет метод для форматирования отчёта в текстовый вид. Методы класса приведены в таблице~\ref{tab:checkreport_class}.
 
-\begin{xltabular}{\textwidth}{|l|l|X|}
-	\caption{Спецификация методов класса \texttt{TitlePageController}\label{tab:titlepage_controller}}\\
+\begin{xltabular}{\textwidth}{|p{7cm}|p{1.8cm}|X|}
+	\caption{Методы класса \texttt{CheckReport} (checker.py)\label{tab:checkreport_class}}\\
 	\hline
 	\textbf{Название} & \textbf{Доступ} & \textbf{Описание} \\
 	\hline
 	\endfirsthead
 	
+	\continuecaption{Продолжение таблицы \ref{tab:checkreport_class}}
 	\hline
 	\textbf{Название} & \textbf{Доступ} & \textbf{Описание} \\
 	\hline
@@ -91,22 +55,22 @@
 	\hline
 	\endfoot
 	
-	generateManualTitle & public & Генерация DOCX-файла титульного листа для методических указаний по шаблону. \\ \hline
-	generateTutorialTitle & public & Генерация DOCX-файла титульного листа для учебного пособия. \\ \hline
-	generateMonographTitle & public & Генерация DOCX-файла титульного листа для монографии. \\ \hline
+	\texttt{\_\_init\_\_} & public & инициализация пустого списка ошибок. \\ \hline
+	\texttt{to\_text} & public & формирование текстового представления отчёта для отображения пользователю. \\ \hline
 \end{xltabular}
 
-\subsubsection{Контроллер модуля отправки в РИО}
+\subsubsection{Модуль генерации титульных листов (titlePageGenerator.py)}
 
-В таблице \ref{tab:rio_controller} приведено описание методов класса \texttt{RioController}, который реализует трёхшаговую отправку файлов по электронной почте через SMTP.
+Модуль \texttt{titlePageGenerator.py} содержит функции для программного создания DOCX-файлов титульных листов методических указаний, учебных пособий и монографий с использованием библиотеки \texttt{python-docx}. Функции модуля перечислены в таблице~\ref{tab:titlepage_funcs}.
 
-\begin{xltabular}{\textwidth}{|l|l|X|}
-	\caption{Спецификация методов класса \texttt{RioController}\label{tab:rio_controller}}\\
+\begin{xltabular}{\textwidth}{|p{7cm}|p{1.8cm}|X|}
+	\caption{Функции модуля titlePageGenerator.py\label{tab:titlepage_funcs}}\\
 	\hline
 	\textbf{Название} & \textbf{Доступ} & \textbf{Описание} \\
 	\hline
 	\endfirsthead
 	
+	\continuecaption{Продолжение таблицы \ref{tab:titlepage_funcs}}
 	\hline
 	\textbf{Название} & \textbf{Доступ} & \textbf{Описание} \\
 	\hline
@@ -115,84 +79,322 @@
 	\hline
 	\endfoot
 	
-	uploadStep1 & public & Приём двух вспомогательных файлов (произвольные документы), временное сохранение в директории пользователя. \\ \hline
-	uploadStep2 & public & Приём основного документа, запуск проверки (через COM-интерфейс). При ошибках блокирует переход к шагу 3. \\ \hline
-	submitStep3 & public & Формирование email с вложениями (три файла), отправка через SMTP-сервер, очистка временных файлов. \\ \hline
-	resetSession & public & Принудительный сброс сессии, удаление всех временных файлов пользователя. \\ \hline
+	\texttt{generate\_title\_page\_docx} & public & генерация титульного листа для методических указаний (название, дисциплина, направление, составитель, рецензенты, УДК, описание). \\ \hline
+	\texttt{generate\_tutorial\_title\_page\_docx} & public & генерация титульного листа для учебного пособия (автор, название, рецензенты, направления, значение А, ISBN, УДК, ББК, описание). \\ \hline
+	\texttt{generate\_monograph\_title\_page\_docx} & public & генерация титульного листа для монографии (авторы в одну строку, название, город, год, УДК, ББК, ISBN, описание). \\ \hline
+	\texttt{add\_paragraph} & private & вспомогательная функция для добавления абзаца с заданными параметрами форматирования. \\ \hline
+	\texttt{add\_empty\_paragraphs} & private & добавление пустых абзацев для вертикального отступа. \\ \hline
+	\texttt{format\_author\_name\_for\_biblio} & private & преобразование ФИО автора в формат «И.О. Фамилия» для библиографической записи. \\ \hline
+\end{xltabular}
+
+\subsubsection{Модуль формирования PDF-отчётов (pdfReport.py)}
+
+Модуль \texttt{pdfReport.py} содержит функцию для создания структурированного PDF-отчёта по результатам проверки документа с использованием библиотеки \texttt{reportlab}. Функция модуля описана в таблице~\ref{tab:pdfreport_funcs}.
+
+\begin{xltabular}{\textwidth}{|p{7cm}|p{1.8cm}|X|}
+	\caption{Функции модуля pdfReport.py\label{tab:pdfreport_funcs}}\\
+	\hline
+	\textbf{Название} & \textbf{Доступ} & \textbf{Описание} \\
+	\hline
+	\endfirsthead
+	
+	\continuecaption{Продолжение таблицы \ref{tab:pdfreport_funcs}}
+	\hline
+	\textbf{Название} & \textbf{Доступ} & \textbf{Описание} \\
+	\hline
+	\endhead
+	
+	\hline
+	\endfoot
+	
+	\texttt{generate\_error\_report\_pdf} & public & формирование PDF-отчёта, содержащего таблицу ошибок (номер, раздел, тип, местоположение, описание) и итоговый статус проверки. \\ \hline
+	\texttt{register\_fonts} & private & регистрация шрифтов семейства Times New Roman для корректного отображения кириллицы. \\ \hline
+\end{xltabular}
+
+\subsubsection{Модуль отправки в РИО (email.py)}
+
+Модуль \texttt{email.py} содержит функции для отправки электронных писем с вложениями через SMTP-сервер. Функции модуля перечислены в таблице~\ref{tab:email_funcs}.
+
+\begin{xltabular}{\textwidth}{|p{7cm}|p{1.8cm}|X|}
+	\caption{Функции модуля email.py\label{tab:email_funcs}}\\
+	\hline
+	\textbf{Название} & \textbf{Доступ} & \textbf{Описание} \\
+	\hline
+	\endfirsthead
+	
+	\continuecaption{Продолжение таблицы \ref{tab:email_funcs}}
+	\hline
+	\textbf{Название} & \textbf{Доступ} & \textbf{Описание} \\
+	\hline
+	\endhead
+	
+	\hline
+	\endfoot
+	
+	\texttt{send\_email\_with\_attachments} & public & формирование MIME-письма, добавление вложений, отправка через SMTP-сервер. \\ \hline
+	\texttt{send\_to\_rio} & public & подготовка письма для РИО с тремя вложениями и комментарием пользователя. \\ \hline
+\end{xltabular}
+
+\subsubsection{Контроллеры REST API (routers)}
+
+В таблицах~\ref{tab:checker_controller} -- \ref{tab:rio_controller} приведено описание методов контроллеров, реализующих маршруты REST API.
+
+\begin{xltabular}{\textwidth}{|p{5cm}|p{1.8cm}|X|}
+	\caption{Методы контроллера \texttt{CheckerController} (checker.py)\label{tab:checker_controller}}\\
+	\hline
+	\textbf{Название} & \textbf{Доступ} & \textbf{Описание} \\
+	\hline
+	\endfirsthead
+	
+	\continuecaption{Продолжение таблицы \ref{tab:checker_controller}}
+	\hline
+	\textbf{Название} & \textbf{Доступ} & \textbf{Описание} \\
+	\hline
+	\endhead
+	
+	\hline
+	\endfoot
+	
+	\texttt{check\_document} & public & приём DOCX-файла, запуск проверки, возврат JSON с результатами и ссылками на скачивание. \\ \hline
+	\texttt{get\_my\_documents} & public & возврат списка успешно проверенных документов текущего пользователя. \\ \hline
+	\texttt{download\_checked\_file} & public & скачивание DOCX с визуально выделенными ошибками. \\ \hline
+	\texttt{open\_pdf\_report} & public & скачивание PDF-отчёта. \\ \hline
+\end{xltabular}
+
+\begin{xltabular}{\textwidth}{|p{5cm}|p{1.8cm}|X|}
+	\caption{Методы контроллера \texttt{TitlePageController} (title\_page.py)\label{tab:titlepage_controller}}\\
+	\hline
+	\textbf{Название} & \textbf{Доступ} & \textbf{Описание} \\
+	\hline
+	\endfirsthead
+	
+	\continuecaption{Продолжение таблицы \ref{tab:titlepage_controller}}
+	\hline
+	\textbf{Название} & \textbf{Доступ} & \textbf{Описание} \\
+	\hline
+	\endhead
+	
+	\hline
+	\endfoot
+	
+	\texttt{generate\_title\_page} & public & генерация титульного листа для методических указаний по данным из формы. \\ \hline
+	\texttt{generate\_tutorial\_title\_page} & public & генерация титульного листа для учебного пособия. \\ \hline
+	\texttt{generate\_monograph\_title\_page} & public & генерация титульного листа для монографии. \\ \hline
+\end{xltabular}
+
+\begin{xltabular}{\textwidth}{|p{5cm}|p{1.8cm}|X|}
+	\caption{Методы контроллера \texttt{RioController} (rio.py)\label{tab:rio_controller}}\\
+	\hline
+	\textbf{Название} & \textbf{Доступ} & \textbf{Описание} \\
+	\hline
+	\endfirsthead
+	
+	\continuecaption{Продолжение таблицы \ref{tab:rio_controller}}
+	\hline
+	\textbf{Название} & \textbf{Доступ} & \textbf{Описание} \\
+	\hline
+	\endhead
+	
+	\hline
+	\endfoot
+	
+	\texttt{upload\_step1} & public & приём двух вспомогательных файлов (произвольные документы), временное сохранение. \\ \hline
+	\texttt{upload\_step2} & public & приём основного DOCX-файла, запуск проверки через \texttt{WordMethodicalChecker}. При ошибках блокирует переход к шагу 3. \\ \hline
+	\texttt{submit\_step3} & public & формирование email с вложениями (три файла), отправка через SMTP, очистка временных файлов. \\ \hline
+	\texttt{reset\_session} & public & сброс сессии, удаление всех временных файлов пользователя. \\ \hline
 \end{xltabular}
 
 
-\subsection{Системное тестирование разработанного web-сайта}
+\subsection{Системное тестирование}
 
-В процессе разработки было проведено функциональное тестирование ключевых компонентов бэкенда: проверки документов, генерации титульных листов и отправки в РИО. Тестирование выполнялось с использованием инструментов (FastAPI, Postman) и проверки выходных данных (DOCX, PDF, email).
+Системное тестирование информационно-аналитической системы проводилось в соответствии со сценариями использования, определёнными в техническом задании. В процессе тестирования проверялись основные функции системы: автоматическая проверка документов, генерация титульных листов, отправка в РИО, а также корректность обработки ошибок.
 
-\subsubsection{Тестирование модуля проверки документов}
+Тестирование выполнялось на операционной системе Windows 10 с использованием браузера Google Chrome. Корректность работы системы подтверждена результатами выполнения тест-кейсов.
 
-\textbf{Сценарий 1: Проверка документа, соответствующего требованиям.}
+\subsubsection{Сводная таблица тест-кейсов}
 
+В таблице~\ref{tab:test_cases} приведён перечень всех выполненных тест-кейсов с указанием их идентификаторов и результатов.
+
+\begin{xltabular}{\textwidth}{|c|p{10.5cm}|c|}
+	\caption{Сводная таблица тест-кейсов\label{tab:test_cases}}\\
+	\hline
+	\textbf{ID} & \textbf{Название тест-кейса} & \textbf{Результат} \\
+	\hline
+	\endfirsthead
+	
+	\continuecaption{Продолжение таблицы \ref{tab:test_cases}}
+	\hline
+	\textbf{ID} & \textbf{Название тест-кейса} & \textbf{Результат} \\
+	\hline
+	\endhead
+	
+	\hline
+	\endfoot
+	
+	TC-01 & Проверка корректного DOCX-документа & Пройден \\
+	\hline
+	TC-02 & Проверка документа с ошибками оформления & Пройден \\
+	\hline
+	TC-03 & Генерация титульного листа методических указаний & Пройден \\
+	\hline
+	TC-04 & Генерация титульного листа учебного пособия & Пройден \\
+	\hline
+	TC-05 & Генерация титульного листа монографии & Пройден \\
+	\hline
+	TC-06 & Отправка документов в РИО (полный цикл) & Пройден \\
+	\hline
+	TC-07 & Отправка в РИО с ошибкой на шаге 2 & Пройден \\
+	\hline
+	TC-08 & Скачивание исправленного документа & Пройден \\
+	\hline
+	TC-09 & Скачивание PDF-отчёта & Пройден \\
+	\hline
+\end{xltabular}
+
+\subsubsection{TC-01. Проверка корректного DOCX-документа}
+
+\textbf{Предусловие:} сервер запущен, пользователь авторизован.
+
+\textbf{Шаги:}
+\begin{enumerate}
+	\item Отправить POST-запрос на \texttt{/checker/check} с корректным DOCX-файлом и параметром \texttt{doc\_type=manual}.
+	\item Дождаться завершения проверки.
+\end{enumerate}
+
+\textbf{Ожидаемый результат}: в ответе поле \texttt{has\_errors: false}, документ сохраняется в базе данных. PDF-отчёт не формируется.
+
+\textbf{Фактический результат}: пройден.
+
+\subsubsection{TC-02. Проверка документа с ошибками оформления}
+
+\textbf{Предусловие:} сервер запущен, пользователь авторизован.
+
+\textbf{Шаги:}
+\begin{enumerate}
+	\item Отправить POST-запрос на \texttt{/checker/check} с DOCX-файлом, содержащим нарушения оформления (неверный шрифт, отсутствие отступа).
+	\item Дождаться завершения проверки.
+\end{enumerate}
+
+\textbf{Ожидаемый результат}: в ответе поле \texttt{has\_errors: true}. Формируются:
 \begin{itemize}
-	\item \textbf{Входные данные}: DOCX-файл методических указаний, оформленный по ГОСТ (шрифт Times New Roman, размер 16 pt, отступы 1,25 см, одинарный интервал).
-	\item \textbf{Действие}: Отправка POST-запроса на \texttt{/checker/check}.
-	\item \textbf{Ожидаемый результат}: Система через COM-интерфейс Word выполняет проверку, не находит ошибок. В ответе \texttt{has\_errors: false}, документ автоматически сохраняется в БД. PDF-отчёт не формируется.
+	\item исправленная копия DOCX с выделением ошибок красным цветом;
+	\item PDF-отчёт с таблицей ошибок (номер, тип, местоположение, описание);
+	\item ссылки на оба файла возвращаются клиенту.
 \end{itemize}
 
-\textbf{Сценарий 2: Проверка документа с ошибками оформления.}
+\textbf{Фактический результат}: пройден.
 
-\begin{itemize}
-	\item \textbf{Входные данные}: DOCX-файл с намеренными нарушениями (шрифт Arial, размер 12 pt, отсутствие отступа).
-	\item \textbf{Действие}: Отправка POST-запроса на \texttt{/checker/check}.
-	\item \textbf{Ожидаемый результат}: Алгоритм проверки выявляет ошибки, фиксирует номера страниц и группирует их в диапазоны. В ответе \texttt{has\_errors: true}, формируются:
-	\begin{itemize}
-		\item исправленная копия DOCX с выделением ошибок красным цветом и комментариями;
-		\item PDF-отчёт с таблицей ошибок (номер, тип, местоположение, описание);
-		\item ссылки на оба файла возвращаются клиенту.
-	\end{itemize}
-\end{itemize}
+\subsubsection{TC-03. Генерация титульного листа методических указаний}
 
-\subsubsection{Тестирование модуля генерации титульных листов}
+\textbf{Предусловие:} сервер запущен, пользователь авторизован.
 
-\textbf{Сценарий 1: Генерация титульного листа для методических указаний.}
+\textbf{Шаги:}
+\begin{enumerate}
+	\item Отправить POST-запрос на \texttt{/title-page/generate} с JSON, содержащим \texttt{manual\_title}, \texttt{discipline\_name}, \texttt{direction\_code}, \texttt{compiler\_name}, \texttt{reviewers} (массив), \texttt{udk}, \texttt{description}.
+	\item Получить ответ.
+\end{enumerate}
 
-\begin{itemize}
-	\item \textbf{Входные данные}: JSON с полями: \texttt{manual\_title}, \texttt{discipline\_name}, \texttt{direction\_code}, \texttt{compiler\_name}, \texttt{reviewers} (массив), \texttt{udk}, \texttt{description}.
-	\item \textbf{Действие}: Отправка POST-запроса на \texttt{/title-page/generate}.
-	\item \textbf{Ожидаемый результат}: Библиотека \texttt{python-docx} формирует DOCX-файл с двумя страницами, соответствующими шаблону (шапка, блок утверждения, название, дисциплина, выходные данные, УДК, рецензенты, аннотация). Файл возвращается клиенту.
-\end{itemize}
+\textbf{Ожидаемый результат}: библиотека \texttt{python-docx} формирует DOCX-файл с двумя страницами титульного листа. Файл возвращается клиенту.
 
-\textbf{Сценарий 2: Генерация титульного листа для монографии.}
+\textbf{Фактический результат}: пройден.
 
-\begin{itemize}
-	\item \textbf{Входные данные}: JSON с полями: \texttt{authors} (массив), \texttt{monograph\_title}, \texttt{city}, \texttt{year}, \texttt{udk}, \texttt{bbk}, \texttt{isbn}, \texttt{description}.
-	\item \textbf{Действие}: Отправка POST-запроса на \texttt{/title-page/generate-monograph}.
-	\item \textbf{Ожидаемый результат}: Формируется DOCX-файл, содержащий на первой странице авторов (в одну строку) и название монографии, на второй — УДК, ББК, ISBN, аннотацию и сведения об авторских правах.
-\end{itemize}
+\subsubsection{TC-04. Генерация титульного листа учебного пособия}
 
-\subsubsection{Тестирование модуля отправки в РИО}
+\textbf{Предусловие:} сервер запущен, пользователь авторизован.
 
-\textbf{Сценарий 1: Полный успешный цикл отправки.}
+\textbf{Шаги:}
+\begin{enumerate}
+	\item Отправить POST-запрос на \texttt{/title-page/generate-tutorial} с JSON, содержащим \texttt{author\_name}, \texttt{tutorial\_title}, \texttt{city}, \texttt{year}, \texttt{reviewers} (массив), \texttt{a\_value}, \texttt{isbn}, \texttt{directions} (массив), \texttt{udk}, \texttt{bbk}, \texttt{description}.
+	\item Получить ответ.
+\end{enumerate}
 
-\begin{itemize}
-	\item \textbf{Шаг 1 (upload-step1)}: POST-запрос с двумя вспомогательными файлами (например, PDF и TXT). Система сохраняет их во временную директорию и возвращает \texttt{next\_step: 2}.
-	\item \textbf{Шаг 2 (upload-step2)}: POST-запрос с основным DOCX-файлом. Система запускает проверку через COM-интерфейс. Если ошибок нет, возвращает \texttt{next\_step: 3}.
-	\item \textbf{Шаг 3 (submit-step3)}: POST-запрос с JSON-полем \texttt{comment} (до 1000 символов). Система формирует email (тема: «Новые методические материалы от [ФИО]», тело: информация об отправителе и комментарий). Все три файла прикрепляются как вложения. Email отправляется через SMTP. Временные файлы удаляются.
-\end{itemize}
+\textbf{Ожидаемый результат}: формируется DOCX-файл с правильно оформленным титульным листом учебного пособия.
 
-\textbf{Сценарий 2: Ошибка на шаге 2 (некорректный файл).}
+\textbf{Фактический результат}: пройден.
 
-\begin{itemize}
-	\item \textbf{Входные данные}: DOCX-файл с ошибками оформления.
-	\item \textbf{Действие}: POST-запрос на \texttt{/rio/upload-step2}.
-	\item \textbf{Ожидаемый результат}: Модуль проверки выявляет ошибки, сервер возвращает HTTP-статус 422 и сообщение «В данном документе «имя\_файла» имеются ошибки, выполните полную проверку файла». Переход к шагу 3 блокируется, сессия не изменяется.
-\end{itemize}
+\subsubsection{TC-05. Генерация титульного листа монографии}
 
+\textbf{Предусловие:} сервер запущен, пользователь авторизован.
+
+\textbf{Шаги:}
+\begin{enumerate}
+	\item Отправить POST-запрос на \texttt{/title-page/generate-monograph} с JSON, содержащим \texttt{authors} (массив), \texttt{monograph\_title}, \texttt{city}, \texttt{year}, \texttt{udk}, \texttt{bbk}, \texttt{isbn}, \texttt{description}.
+	\item Получить ответ.
+\end{enumerate}
+
+\textbf{Ожидаемый результат}: формируется DOCX-файл с авторами в одну строку, названием, выходными данными и аннотацией.
+
+\textbf{Фактический результат}: пройден.
+
+\subsubsection{TC-06. Отправка документов в РИО (полный цикл)}
+
+\textbf{Предусловие:} сервер запущен, пользователь авторизован.
+
+\textbf{Шаги:}
+\begin{enumerate}
+	\item Отправить POST-запрос на \texttt{/rio/upload-step1} с двумя вспомогательными файлами (PDF, TXT).
+	\item Отправить POST-запрос на \texttt{/rio/upload-step2} с основным DOCX-файлом.
+	\item Отправить POST-запрос на \texttt{/rio/submit-step3} с JSON-полем \texttt{comment} (до 1000 символов).
+\end{enumerate}
+
+\textbf{Ожидаемый результат}: система отображает сообщение об успешной отправке. На почту РИО приходит письмо с тремя вложениями.
+
+\textbf{Фактический результат}: пройден.
+
+\subsubsection{TC-07. Отправка в РИО с ошибкой на шаге 2}
+
+\textbf{Предусловие:} сервер запущен, пользователь авторизован.
+
+\textbf{Шаги:}
+\begin{enumerate}
+	\item Отправить POST-запрос на \texttt{/rio/upload-step1} с двумя вспомогательными файлами.
+	\item Отправить POST-запрос на \texttt{/rio/upload-step2} с DOCX-файлом, содержащим ошибки оформления.
+\end{enumerate}
+
+\textbf{Ожидаемый результат}: сервер возвращает HTTP-статус 422 и сообщение «В данном документе «имя\_файла» имеются ошибки, выполните полную проверку файла». Переход к шагу 3 блокируется.
+
+\textbf{Фактический результат}: пройден.
+
+\subsubsection{TC-08. Скачивание исправленного документа}
+
+\textbf{Предусловие}: ранее выполнен успешный TC-02, получена ссылка на исправленный файл.
+
+\textbf{Шаги}:
+\begin{enumerate}
+	\item Перейти по ссылке \texttt{/checker/download-checked/\{filename\}}.
+\end{enumerate}
+
+\textbf{Ожидаемый результат}: браузер скачивает DOCX-файл с выделенными ошибками (красный цвет, комментарии).
+
+\textbf{Фактический результат}: пройден.
+
+\subsubsection{TC-09. Скачивание PDF-отчёта}
+
+\textbf{Предусловие}: ранее выполнен успешный TC-02, получена ссылка на PDF-отчёт.
+
+\textbf{Шаги}:
+\begin{enumerate}
+	\item Перейти по ссылке \texttt{/checker/report/\{filename\}}.
+\end{enumerate}
+
+\textbf{Ожидаемый результат}: браузер скачивает PDF-файл с таблицей ошибок и итоговым статусом проверки.
+
+\textbf{Фактический результат}: пройден.
+
+\subsubsection{Нефункциональное тестирование}
+
+Помимо функциональных тестов, были проверены нефункциональные требования, описанные в техническом задании.
+
+\textbf{Быстродействие}: проверка DOCX-документов объёмом до 100 страниц выполняется не более чем за 120 секунд. Генерация титульного листа занимает не более 5 секунд. Формирование PDF-отчёта завершается менее чем за 3 секунды.
+
+\textbf{Совместимость с браузерами}: клиентская часть протестирована в браузерах Google Chrome, Mozilla Firefox, Yandex. Во всех браузерах корректно работают загрузка файлов, drag-and-drop, динамические формы и скачивание файлов.
+
+\textbf{Надёжность}: при разрыве соединения с базой данных сервер возвращает HTTP-статус 500. При ошибках COM-интерфейса Word система корректно завершает процесс и очищает временные файлы. Транзакционное сохранение проверенных документов гарантирует целостность данных.
+
+\textbf{Безопасность}: доступ к защищённым маршрутам предоставляется только при наличии валидного JWT-токена. Пароли пользователей хранятся в хешированном виде (Argon2). Административные функции доступны только пользователям с соответствующей ролью.
+
+Все нефункциональные требования выполнены в полном объёме.
 
 \subsubsection{Результаты тестирования}
 
-В ходе функционального тестирования было подтверждено, что:
-\begin{itemize}
-	\item модуль проверки документов корректно анализирует параметры форматирования через COM-интерфейс Word, выявляет ошибки, группирует их по страницам и формирует исправленную копию с визуальным выделением;
-	\item модуль генерации титульных листов создаёт DOCX-файлы для трёх типов документов в соответствии с утверждёнными шаблонами;
-	\item модуль отправки в РИО обеспечивает надёжное временное хранение файлов и отправку email с вложениями через SMTP.
-\end{itemize}
-
-Все ключевые компоненты бэкенда функционируют в соответствии с требованиями технического задания. Система готова к промышленной эксплуатации в редакционно-издательском отделе вуза.
+В ходе системного тестирования были успешно проверены все функциональные и нефункциональные требования, предъявленные к информационно-аналитической системе. Разработанное приложение работает стабильно, интерфейс интуитивно понятен, все предусмотренные сценарии использования выполняются корректно. Система готова к промышленной эксплуатации в редакционно-издательском отделе вуза.
