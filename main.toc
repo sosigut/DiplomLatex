@@ -51,7 +51,7 @@
 \contentsline {subsubsection}{\numberline {3.2.7}Управление сессиями и обновление токенов}{51}{subsubsection.3.2.7}%
 \contentsline {subsubsection}{\numberline {3.2.8}Взаимодействие с базой данных через ORM}{52}{subsubsection.3.2.8}%
 \contentsline {subsubsection}{\numberline {3.2.9}Предотвращение дублирования}{53}{subsubsection.3.2.9}%
-\contentsline {subsubsection}{\numberline {3.2.10}Обработка ошибок и восстановление}{54}{subsubsection.3.2.10}%
+\contentsline {subsubsection}{\numberline {3.2.10}Обработка ошибок и восстановление}{53}{subsubsection.3.2.10}%
 \contentsline {subsubsection}{\numberline {3.2.11}Хранение данных}{54}{subsubsection.3.2.11}%
 \contentsline {subsubsection}{\numberline {3.2.12}Логирование}{55}{subsubsection.3.2.12}%
 \contentsline {subsubsection}{\numberline {3.2.13}Заключение}{55}{subsubsection.3.2.13}%
@@ -85,4 +85,4 @@
 \contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{76}{Item.201}%
 \contentsline {section}{ПРИЛОЖЕНИЕ А\ Представление графического материала}{82}{section*.20}%
 \contentsline {section}{ПРИЛОЖЕНИЕ Б\ Фрагменты исходного кода программы}{91}{section*.29}%
-\contentsline {section}{На отдельных листах (CD-RW в прикрепленном конверте)}{121}{lstnumber.-6.613}%
+\contentsline {section}{На отдельных листах (CD-RW в прикрепленном конверте)}{105}{lstnumber.-4.142}%
