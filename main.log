@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.5)  4 JUN 2026 14:07
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.5)  9 JUN 2026 16:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -790,51 +790,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--68
  []
 
 ) (./Введение.tex [14]
-Underfull \hbox (badness 2073) in paragraph at lines 6--7
-\TU/TimesNewRoman(0)/m/n/14.4 системы предоставляют возможность автоматизирован
-ной проверки до-
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]\TU/TimesNewRoman(0)/m/it/14.4 Цель настоящей работы \TU/TimesNewRoman(0)/m/n
+/14.4 – спроектировать и реализовать
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 6--7
-\TU/TimesNewRoman(0)/m/n/14.4 кументов, генерации отчётов, формирования титульн
-ых листов и орга-
- []
-
-
-Underfull \hbox (badness 1275) in paragraph at lines 6--7
-\TU/TimesNewRoman(0)/m/n/14.4 низации взаимодействия между авторами и сотрудник
-ами редакционно-
- []
-
-
-Underfull \hbox (badness 3590) in paragraph at lines 10--11
-\TU/TimesNewRoman(0)/m/n/14.4 системы для автоматизации процессов проверки и об
-работки учебно-
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\TU/TimesNewRoman(0)/m/n/14.4 информационно-аналитическую систему, которая авто
+матизирует про-
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-[]\TU/TimesNewRoman(0)/m/n/14.4 Изучить особенности организации работы редакцио
-нно-
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+[]\TU/TimesNewRoman(0)/m/n/14.4 Спроектировать архитектуру будущей информационн
+о-
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 15--16
-[]\TU/TimesNewRoman(0)/m/n/14.4 Проанализировать существующие средства автомати
-зации доку-
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+[]\TU/TimesNewRoman(0)/m/n/14.4 Реализовать серверную часть с использованием Fa
+stAPI и
  []
 
 \c=\count351
 \last=\count352
 \pnul=\count353
-[16]
+
 Underfull \hbox (badness 1052) in paragraph at lines 32--33
 []\TU/TimesNewRoman(0)/m/it/14.4 В третьем разделе \TU/TimesNewRoman(0)/m/n/14.
 4 на стадии технического проектирования пред-
  []
 
-) (./Анализ.tex [17]
+[16]) (./Анализ.tex [17]
 Underfull \hbox (badness 10000) in paragraph at lines 3--3
 []\TU/TimesNewRoman(0)/b/n/14.4 1.1 Характеристика деятельности редакционно-изд
 ательского
@@ -939,9 +927,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 365--365
  []
 
 [36] [37] [38]
-Underfull \hbox (badness 10000) in paragraph at lines 508--509
-[]\TU/TimesNewRoman(0)/m/n/14.4 Разрабатываемая информационно-аналитическая сис
-тема должна
+Underfull \hbox (badness 4084) in paragraph at lines 508--509
+[]\TU/TimesNewRoman(0)/m/n/14.4 Спроектированная информационно-аналитическая си
+стема обязана
  []
 
 [39] [40]) (./ТехПроект.tex [41]
@@ -1337,71 +1325,83 @@ Underfull \hbox (badness 1490) in paragraph at lines 43--2
  []
 
 [76]
-Underfull \hbox (badness 1436) in paragraph at lines 30--31
+Underfull \hbox (badness 1436) in paragraph at lines 31--32
 []\TU/TimesNewRoman(0)/m/n/14.4 Pydantic Documentation : официальный сайт. – UR
 L: []$[][][][][] [] [] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 33--34
+Underfull \hbox (badness 1642) in paragraph at lines 34--35
 []\TU/TimesNewRoman(0)/m/n/14.4 Uvicorn Documentation : официальный сайт. – URL
 : []$[][][][][] [] [] [] [][][] []
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 36--37
+Underfull \hbox (badness 1521) in paragraph at lines 37--38
 []\TU/TimesNewRoman(0)/m/n/14.4 Starlette Documentation : официальный сайт. – U
 RL: []$[][][][][] [] [] [] [][][] []
  []
 
 [77]
-Underfull \hbox (badness 2111) in paragraph at lines 63--64
+Underfull \hbox (badness 2111) in paragraph at lines 64--65
 []\TU/TimesNewRoman(0)/m/n/14.4 python-docx Documentation : официальный сайт. –
  URL: []$[][][][][] [] [] []
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 69--70
+Underfull \hbox (badness 1442) in paragraph at lines 70--71
 []\TU/TimesNewRoman(0)/m/n/14.4 ECMA-376 Office Open XML File Formats : официал
 ьный сайт.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 \TU/TimesNewRoman(0)/m/n/14.4 – URL: []$[][][][][] [] [] [] [][][] [] [][][][][
 ][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][] [] [][][][][][][][][] []
  []
 
+
+Underfull \hbox (badness 2020) in paragraph at lines 76--77
+[]\TU/TimesNewRoman(0)/m/n/14.4 The OAuth 2.0 Authorization Framework : официал
+ьный сайт. –
+ []
+
 [78]
-Underfull \hbox (badness 2435) in paragraph at lines 90--91
+Underfull \hbox (badness 2435) in paragraph at lines 88--89
 \TU/TimesNewRoman(0)/m/n/14.4 ный сайт. – URL: []$[][][][][] [] [] [] [][][] []
  [][][] [] [][][] [] [][][][] [] [][][] [] [] [] [] [] [] [] [][][]$[] (дата об
 ращения:
  []
 
 [79]
-Underfull \hbox (badness 1527) in paragraph at lines 126--127
+Underfull \hbox (badness 1527) in paragraph at lines 124--125
 []\TU/TimesNewRoman(0)/m/n/14.4 Fielding, R. Architectural Styles and the Desig
 n of Network-based
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 126--127
+Underfull \hbox (badness 1824) in paragraph at lines 124--125
 \TU/TimesNewRoman(0)/m/n/14.4 Software Architectures // University of Californi
 a : официальный сайт. –
  []
 
 
-Underfull \hbox (badness 6876) in paragraph at lines 135--136
+Underfull \hbox (badness 6876) in paragraph at lines 133--134
 []\TU/TimesNewRoman(0)/m/n/14.4 Bootstrap Documentation : официальный сайт. – U
 RL: []$[][][][][] [] [] []
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 153--154
-[]\TU/TimesNewRoman(0)/m/n/14.4 Лопес, Ф. SQLAlchemy. Архитектура и паттерны / 
-Ф. Лопес. –
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+[]\TU/TimesNewRoman(0)/m/n/14.4 Персиваль, Г.Паттерны разработки на Python: TDD
+, DDD и
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 151--152
+\TU/TimesNewRoman(0)/m/n/14.4 событийно-ориентированная архитектура / Г. Персив
+аль, Б. Грегори. –
  []
 
 [80]) (./Плакаты.tex [81] [82]
